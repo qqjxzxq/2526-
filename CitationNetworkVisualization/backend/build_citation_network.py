@@ -4,7 +4,7 @@ import ast
 import re
 import os
 
-INPUT_FILE = "../output_cleaned/vispub_final.csv"
+INPUT_FILE = "../../output_cleaned/vispub_final.csv"
 OUTPUT_DIR = "citation_network"
 
 EDGE_FILE = os.path.join(OUTPUT_DIR, "citation_edges.csv")
@@ -75,7 +75,7 @@ print(f"✅ Edge list saved: {EDGE_FILE}  ({len(edges_df)} edges)")
 
 # ---------- build nodes ----------
 # 可选：结合你之前算的 citation timeline
-timeline_file = "citation_timeline/citation_timeline_wide.csv"
+timeline_file = "../../citation_timeline/citation_timeline_wide.csv"
 
 if os.path.exists(timeline_file):
     wide = pd.read_csv(timeline_file)
