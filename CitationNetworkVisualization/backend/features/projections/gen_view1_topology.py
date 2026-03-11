@@ -29,7 +29,7 @@ def main():
     df['y_topo'] = embedding[:, 1]
 
     # 仅保存坐标和 ID 映射
-    df[['node_id', 'x_topo', 'y_topo']].to_csv(OUT_PATH, index=False)
+    df[['id', 'x_topo', 'y_topo']].to_csv(OUT_PATH, index=False)
     print("✨ 视图 1 坐标已生成。 保存到:", OUT_PATH)
 
 if __name__ == '__main__':

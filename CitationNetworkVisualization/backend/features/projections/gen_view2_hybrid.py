@@ -18,10 +18,10 @@ def main():
 
     # --- 强力对齐 ID 列名 ---
     # 检查 df_feat
-    if 'node_id' in df_feat.columns:
-        df_feat = df_feat.rename(columns={'node_id': 'id'})
+    if 'id' in df_feat.columns:
+        df_feat = df_feat.rename(columns={'id': 'id'})
     elif 'id' not in df_feat.columns:
-        # 如果既没有 node_id 也没有 id，可能是第一列，我们手动命名它
+        # 如果既没有 id 也没有 id，可能是第一列，我们手动命名它
         df_feat = df_feat.rename(columns={df_feat.columns[-1]: 'id'})
 
     df = pd.merge(df_feat, df_nodes[['id', 'year']], on='id')

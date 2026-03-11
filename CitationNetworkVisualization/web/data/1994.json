@@ -2,2743 +2,5146 @@
   "nodes": [
     {
       "id": "W2137173216",
-      "citations": 1
+      "citations": 1,
+      "x_topo": 3.348014,
+      "y_topo": 0.49913272,
+      "x_hybrid": 2.8860173,
+      "y_hybrid": -2.098738,
+      "x_backbone": 10.968372,
+      "y_backbone": -0.9339236,
+      "is_core": true
     },
     {
       "id": "W4248958904",
-      "citations": 4
+      "citations": 4,
+      "x_topo": 4.072677,
+      "y_topo": 4.676303,
+      "x_hybrid": 9.801329,
+      "y_hybrid": 10.57729,
+      "x_backbone": -1.9790008,
+      "y_backbone": 3.430535,
+      "is_core": true
     },
     {
       "id": "W2067228187",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 5.526551,
+      "y_topo": 3.6819546,
+      "x_hybrid": 5.88092,
+      "y_hybrid": -0.16327113,
+      "is_core": false
     },
     {
       "id": "W2997110958",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 5.3811507,
+      "y_topo": 4.178254,
+      "x_hybrid": 6.073974,
+      "y_hybrid": 0.117270425,
+      "is_core": false
     },
     {
       "id": "W4256596898",
-      "citations": 23
+      "citations": 23,
+      "x_topo": 2.493009,
+      "y_topo": 3.7671833,
+      "x_hybrid": 8.125828,
+      "y_hybrid": 9.650362,
+      "x_backbone": 8.905953,
+      "y_backbone": 2.505655,
+      "is_core": true
     },
     {
       "id": "W2140037506",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 5.034172,
+      "y_topo": 3.791817,
+      "x_hybrid": 9.830134,
+      "y_hybrid": 10.454886,
+      "is_core": false
     },
     {
       "id": "W2121353044",
-      "citations": 1
+      "citations": 1,
+      "x_topo": 1.6712619,
+      "y_topo": 6.324591,
+      "x_hybrid": 9.230457,
+      "y_hybrid": 10.049021,
+      "is_core": false
     },
     {
       "id": "W1978073473",
-      "citations": 11
+      "citations": 11,
+      "x_topo": 3.5895247,
+      "y_topo": 4.9715915,
+      "x_hybrid": 9.248656,
+      "y_hybrid": 10.094911,
+      "x_backbone": 7.632267,
+      "y_backbone": 7.1479087,
+      "is_core": true
     },
     {
       "id": "W4245628801",
-      "citations": 5
+      "citations": 5,
+      "x_topo": 3.210391,
+      "y_topo": 4.704486,
+      "x_hybrid": 9.237632,
+      "y_hybrid": 10.0798025,
+      "x_backbone": 7.416613,
+      "y_backbone": 7.64854,
+      "is_core": true
     },
     {
       "id": "W2168256496",
-      "citations": 3
+      "citations": 3,
+      "x_topo": 4.1133,
+      "y_topo": 4.7091713,
+      "x_hybrid": 9.58428,
+      "y_hybrid": 10.268651,
+      "x_backbone": 7.10541,
+      "y_backbone": 8.430523,
+      "is_core": true
     },
     {
       "id": "W4246881331",
-      "citations": 5
+      "citations": 5,
+      "x_topo": 3.0589304,
+      "y_topo": 0.4896826,
+      "x_hybrid": 2.7140229,
+      "y_hybrid": -2.3147032,
+      "x_backbone": 11.089865,
+      "y_backbone": -1.020551,
+      "is_core": true
     },
     {
       "id": "W2158897662",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 16.04635,
+      "y_topo": 17.13339,
+      "x_hybrid": 5.9554563,
+      "y_hybrid": -0.15577501,
+      "is_core": false
     },
     {
       "id": "W2152600964",
-      "citations": 1
+      "citations": 1,
+      "x_topo": 4.828608,
+      "y_topo": 4.170038,
+      "x_hybrid": 5.8884444,
+      "y_hybrid": -0.21240114,
+      "is_core": false
     },
     {
       "id": "W4236518093",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 5.3523455,
+      "y_topo": 3.9260988,
+      "x_hybrid": 5.9997215,
+      "y_hybrid": 0.058542814,
+      "is_core": false
     },
     {
       "id": "W2101237372",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 4.8118067,
+      "y_topo": 3.6535845,
+      "x_hybrid": 5.9055333,
+      "y_hybrid": 2.0826945e-05,
+      "is_core": false
     },
     {
       "id": "W2171588697",
-      "citations": 1
+      "citations": 1,
+      "x_topo": 4.755389,
+      "y_topo": 3.8710306,
+      "x_hybrid": 5.8193183,
+      "y_hybrid": -0.3302738,
+      "is_core": false
     },
     {
       "id": "W4252716334",
-      "citations": 5
+      "citations": 5,
+      "x_topo": 2.9455879,
+      "y_topo": 2.9975328,
+      "x_hybrid": 8.310524,
+      "y_hybrid": 9.078599,
+      "x_backbone": 12.990039,
+      "y_backbone": 5.633237,
+      "is_core": true
     },
     {
       "id": "W2112395146",
-      "citations": 1
+      "citations": 1,
+      "x_topo": 3.6774557,
+      "y_topo": 4.679682,
+      "x_hybrid": 8.9538,
+      "y_hybrid": 9.738028,
+      "x_backbone": 11.7797985,
+      "y_backbone": 6.15927,
+      "is_core": true
     },
     {
       "id": "W1685939864",
-      "citations": 0
+      "citations": 0,
+      "x_topo": -1.8554736,
+      "y_topo": 0.77931505,
+      "x_hybrid": 5.934081,
+      "y_hybrid": -0.20013006,
+      "is_core": false
     },
     {
       "id": "W2143863458",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 3.841207,
+      "y_topo": 23.18932,
+      "x_hybrid": 5.8079677,
+      "y_hybrid": -0.3344843,
+      "is_core": false
     },
     {
       "id": "W1507773414",
-      "citations": 2
+      "citations": 2,
+      "x_topo": 4.8515143,
+      "y_topo": 3.9913893,
+      "x_hybrid": 9.783091,
+      "y_hybrid": 10.462091,
+      "is_core": false
     },
     {
       "id": "W2112251789",
-      "citations": 1
+      "citations": 1,
+      "x_topo": 4.730311,
+      "y_topo": 4.07341,
+      "x_hybrid": 9.798907,
+      "y_hybrid": 10.487334,
+      "x_backbone": 6.112092,
+      "y_backbone": 10.9417515,
+      "is_core": true
     },
     {
       "id": "W2122283653",
-      "citations": 1
+      "citations": 1,
+      "x_topo": 4.939782,
+      "y_topo": 4.010397,
+      "x_hybrid": 6.0158377,
+      "y_hybrid": 0.0350262,
+      "is_core": false
     },
     {
       "id": "W4250585725",
-      "citations": 5
+      "citations": 5,
+      "x_topo": 1.6582773,
+      "y_topo": 2.7945971,
+      "x_hybrid": 8.298247,
+      "y_hybrid": 9.722024,
+      "x_backbone": 8.928831,
+      "y_backbone": 2.1311011,
+      "is_core": true
     },
     {
       "id": "W2134554272",
-      "citations": 3
+      "citations": 3,
+      "x_topo": 4.3791833,
+      "y_topo": 4.466682,
+      "x_hybrid": 6.083054,
+      "y_hybrid": 0.0623621,
+      "x_backbone": -2.4936152,
+      "y_backbone": 3.5660388,
+      "is_core": true
     },
     {
       "id": "W1902262656",
-      "citations": 1
+      "citations": 1,
+      "x_topo": 5.0232654,
+      "y_topo": 4.045506,
+      "x_hybrid": 5.9116096,
+      "y_hybrid": -0.118963026,
+      "is_core": false
     },
     {
       "id": "W2002384378",
-      "citations": 1
+      "citations": 1,
+      "x_topo": 4.7509575,
+      "y_topo": 3.8253224,
+      "x_hybrid": 5.9143667,
+      "y_hybrid": 0.11075995,
+      "is_core": false
     },
     {
       "id": "W4234440215",
-      "citations": 1
+      "citations": 1,
+      "x_topo": 4.3124456,
+      "y_topo": 4.5198665,
+      "x_hybrid": 6.12205,
+      "y_hybrid": 0.19777696,
+      "x_backbone": -2.5960472,
+      "y_backbone": 3.1145072,
+      "is_core": true
     },
     {
       "id": "W2152773509",
-      "citations": 4
+      "citations": 4,
+      "x_topo": 3.431389,
+      "y_topo": 3.656933,
+      "x_hybrid": 8.949819,
+      "y_hybrid": 9.721701,
+      "x_backbone": 11.405402,
+      "y_backbone": 6.51337,
+      "is_core": true
     },
     {
       "id": "W4243890921",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 4.764299,
+      "y_topo": 3.7153687,
+      "x_hybrid": 9.58791,
+      "y_hybrid": 10.44491,
+      "is_core": false
     },
     {
       "id": "W1948193081",
-      "citations": 1
+      "citations": 1,
+      "x_topo": 4.757157,
+      "y_topo": 3.912424,
+      "x_hybrid": 5.701635,
+      "y_hybrid": -0.43081725,
+      "is_core": false
     },
     {
       "id": "W2138673011",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 5.549348,
+      "y_topo": 4.390196,
+      "x_hybrid": 5.9899697,
+      "y_hybrid": -0.16701946,
+      "is_core": false
     },
     {
       "id": "W2105975314",
-      "citations": 7
+      "citations": 7,
+      "x_topo": 2.961386,
+      "y_topo": 1.0480565,
+      "x_hybrid": 2.942222,
+      "y_hybrid": -2.0421116,
+      "x_backbone": 10.91969,
+      "y_backbone": -0.79285616,
+      "is_core": true
     },
     {
       "id": "W4249870102",
-      "citations": 1
+      "citations": 1,
+      "x_topo": 5.115252,
+      "y_topo": 3.9499795,
+      "x_hybrid": 9.848215,
+      "y_hybrid": 10.445568,
+      "is_core": false
     },
     {
       "id": "W2157255966",
-      "citations": 2
+      "citations": 2,
+      "x_topo": 4.329032,
+      "y_topo": 4.2581387,
+      "x_hybrid": 9.001785,
+      "y_hybrid": 9.847213,
+      "x_backbone": 11.287748,
+      "y_backbone": 6.5807567,
+      "is_core": true
     },
     {
       "id": "W1605161096",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 20.324766,
+      "y_topo": -2.9778514,
+      "x_hybrid": 5.7028985,
+      "y_hybrid": -0.6299717,
+      "is_core": false
     },
     {
       "id": "W4232485286",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 2.7053351,
+      "y_topo": 18.972076,
+      "x_hybrid": 5.744283,
+      "y_hybrid": -0.5805469,
+      "is_core": false
     },
     {
       "id": "W1845209682",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 4.7477703,
+      "y_topo": 3.671456,
+      "x_hybrid": 9.807256,
+      "y_hybrid": 10.529297,
+      "is_core": false
     },
     {
       "id": "W2157428799",
-      "citations": 0
+      "citations": 0,
+      "x_topo": -4.5795083,
+      "y_topo": -9.123297,
+      "x_hybrid": 5.743659,
+      "y_hybrid": -0.61425817,
+      "is_core": false
     },
     {
       "id": "W1842298366",
-      "citations": 1
+      "citations": 1,
+      "x_topo": 4.6201925,
+      "y_topo": 4.013793,
+      "x_hybrid": 9.694424,
+      "y_hybrid": 10.468257,
+      "x_backbone": 6.9505043,
+      "y_backbone": 9.847011,
+      "is_core": true
     },
     {
       "id": "W2137812155",
-      "citations": 11
+      "citations": 11,
+      "x_topo": 2.8831208,
+      "y_topo": 0.81144744,
+      "x_hybrid": 2.7282104,
+      "y_hybrid": -1.9589858,
+      "x_backbone": 11.423733,
+      "y_backbone": -0.76431644,
+      "is_core": true
     },
     {
       "id": "W2170047987",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 22.792273,
+      "y_topo": 1.8581458,
+      "x_hybrid": 5.8464055,
+      "y_hybrid": -0.26531574,
+      "is_core": false
     },
     {
       "id": "W2137833347",
-      "citations": 17
+      "citations": 17,
+      "x_topo": 2.8349988,
+      "y_topo": 0.27024302,
+      "x_hybrid": 2.520202,
+      "y_hybrid": -2.5394351,
+      "x_backbone": 11.430935,
+      "y_backbone": -1.2710636,
+      "is_core": true
     },
     {
       "id": "W2108818630",
-      "citations": 3
+      "citations": 3,
+      "x_topo": 3.4891608,
+      "y_topo": 3.7872808,
+      "x_hybrid": 9.2999735,
+      "y_hybrid": 9.875846,
+      "x_backbone": 8.546176,
+      "y_backbone": 7.943774,
+      "is_core": true
     },
     {
       "id": "W4254549134",
-      "citations": 0
+      "citations": 0,
+      "x_topo": -1.8260976,
+      "y_topo": 1.0908993,
+      "x_hybrid": 5.955581,
+      "y_hybrid": -0.08062075,
+      "is_core": false
     },
     {
       "id": "W4248244060",
-      "citations": 1
+      "citations": 1,
+      "x_topo": 4.620935,
+      "y_topo": 3.966826,
+      "x_hybrid": 9.642063,
+      "y_hybrid": 10.371506,
+      "x_backbone": 7.3095937,
+      "y_backbone": 9.596887,
+      "is_core": true
     },
     {
       "id": "W2113606855",
-      "citations": 3
+      "citations": 3,
+      "x_topo": 3.1172285,
+      "y_topo": 3.0287266,
+      "x_hybrid": 3.378144,
+      "y_hybrid": -1.4697385,
+      "x_backbone": 10.601066,
+      "y_backbone": -0.6748431,
+      "is_core": true
     },
     {
       "id": "W1990145455",
-      "citations": 1
+      "citations": 1,
+      "x_topo": 11.397054,
+      "y_topo": -4.869332,
+      "x_hybrid": 5.6430197,
+      "y_hybrid": -0.39626613,
+      "is_core": false
     },
     {
       "id": "W4251815471",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 5.0874796,
+      "y_topo": 3.6536577,
+      "x_hybrid": 5.949805,
+      "y_hybrid": -0.078126095,
+      "is_core": false
     },
     {
       "id": "W2129192474",
-      "citations": 5
+      "citations": 5,
+      "x_topo": 3.9760194,
+      "y_topo": 4.766004,
+      "x_hybrid": 9.065167,
+      "y_hybrid": 9.804817,
+      "x_backbone": 10.450519,
+      "y_backbone": 6.8810525,
+      "is_core": true
     },
     {
       "id": "W2017018978",
-      "citations": 54
+      "citations": 54,
+      "x_topo": 1.9806861,
+      "y_topo": 1.1091197,
+      "x_hybrid": 6.087683,
+      "y_hybrid": 8.501855,
+      "x_backbone": 8.336972,
+      "y_backbone": 0.22113217,
+      "is_core": true
     },
     {
       "id": "W2166175381",
-      "citations": 10
+      "citations": 10,
+      "x_topo": 4.436996,
+      "y_topo": 5.5983377,
+      "x_hybrid": 10.064797,
+      "y_hybrid": 10.566089,
+      "x_backbone": -1.0712743,
+      "y_backbone": 5.193146,
+      "is_core": true
     },
     {
       "id": "W2040688751",
-      "citations": 16
+      "citations": 16,
+      "x_topo": 2.5227578,
+      "y_topo": 3.7520792,
+      "x_hybrid": 7.8152533,
+      "y_hybrid": 9.511469,
+      "x_backbone": 8.637231,
+      "y_backbone": 1.597208,
+      "is_core": true
     },
     {
       "id": "W2104733168",
-      "citations": 7
+      "citations": 7,
+      "x_topo": 3.0351095,
+      "y_topo": 4.684646,
+      "x_hybrid": 9.861265,
+      "y_hybrid": 10.388838,
+      "x_backbone": 5.2148824,
+      "y_backbone": 10.328866,
+      "is_core": true
     },
     {
       "id": "W2079380280",
-      "citations": 21
+      "citations": 21,
+      "x_topo": 2.7976484,
+      "y_topo": 0.66018915,
+      "x_hybrid": 2.6958146,
+      "y_hybrid": -2.2817442,
+      "x_backbone": 11.313796,
+      "y_backbone": -1.1580708,
+      "is_core": true
     },
     {
       "id": "W2117616757",
-      "citations": 13
+      "citations": 13,
+      "x_topo": 1.718612,
+      "y_topo": 2.9724433,
+      "x_hybrid": 8.6378145,
+      "y_hybrid": 10.108666,
+      "x_backbone": 8.241262,
+      "y_backbone": 3.5939007,
+      "is_core": true
     },
     {
       "id": "W2294748468",
-      "citations": 2
+      "citations": 2,
+      "x_topo": 4.51792,
+      "y_topo": 4.5974565,
+      "x_hybrid": 9.476682,
+      "y_hybrid": 10.686827,
+      "x_backbone": 7.0602393,
+      "y_backbone": 9.07753,
+      "is_core": true
     },
     {
       "id": "W2096125052",
-      "citations": 2
+      "citations": 2,
+      "x_topo": 1.373164,
+      "y_topo": 5.8953886,
+      "x_hybrid": 8.930178,
+      "y_hybrid": 9.90995,
+      "is_core": false
     },
     {
       "id": "W2124294125",
-      "citations": 3
+      "citations": 3,
+      "x_topo": 4.1002765,
+      "y_topo": 4.7442083,
+      "x_hybrid": 9.442197,
+      "y_hybrid": 10.652853,
+      "x_backbone": 6.1066327,
+      "y_backbone": 8.683128,
+      "is_core": true
     },
     {
       "id": "W2101990964",
-      "citations": 16
+      "citations": 16,
+      "x_topo": 3.028115,
+      "y_topo": 0.3994236,
+      "x_hybrid": 2.6576157,
+      "y_hybrid": -2.3987522,
+      "x_backbone": 11.333774,
+      "y_backbone": -1.1735522,
+      "is_core": true
     },
     {
       "id": "W2125944019",
-      "citations": 22
+      "citations": 22,
+      "x_topo": 2.7667067,
+      "y_topo": 0.3639295,
+      "x_hybrid": 2.5944405,
+      "y_hybrid": -2.543433,
+      "x_backbone": 11.418403,
+      "y_backbone": -1.2473729,
+      "is_core": true
     },
     {
       "id": "W2113623008",
-      "citations": 7
+      "citations": 7,
+      "x_topo": 1.6993837,
+      "y_topo": 3.373595,
+      "x_hybrid": 8.195852,
+      "y_hybrid": 9.070514,
+      "x_backbone": 13.235544,
+      "y_backbone": 5.426683,
+      "is_core": true
     },
     {
       "id": "W4254180709",
-      "citations": 4
+      "citations": 4,
+      "x_topo": 4.0495086,
+      "y_topo": 4.6629844,
+      "x_hybrid": 9.425377,
+      "y_hybrid": 10.563446,
+      "x_backbone": 6.4950957,
+      "y_backbone": 8.143287,
+      "is_core": true
     },
     {
       "id": "W2051717600",
-      "citations": 8
+      "citations": 8,
+      "x_topo": 0.7517459,
+      "y_topo": 3.140288,
+      "x_hybrid": 8.93792,
+      "y_hybrid": 10.34852,
+      "x_backbone": 5.737532,
+      "y_backbone": 7.492254,
+      "is_core": true
     },
     {
       "id": "W2127831599",
-      "citations": 3
+      "citations": 3,
+      "x_topo": 4.804122,
+      "y_topo": 4.2826085,
+      "x_hybrid": 9.541844,
+      "y_hybrid": 10.973504,
+      "x_backbone": -1.8521802,
+      "y_backbone": 3.3087897,
+      "is_core": true
     },
     {
       "id": "W2107666439",
-      "citations": 35
+      "citations": 35,
+      "x_topo": 2.6260734,
+      "y_topo": 0.50637525,
+      "x_hybrid": 2.629388,
+      "y_hybrid": -2.4325645,
+      "x_backbone": 11.404703,
+      "y_backbone": -1.2322631,
+      "is_core": true
     },
     {
       "id": "W2116749829",
-      "citations": 1
+      "citations": 1,
+      "x_topo": 3.7898252,
+      "y_topo": 3.8688712,
+      "x_hybrid": 9.513703,
+      "y_hybrid": 10.764963,
+      "is_core": false
     },
     {
       "id": "W1984245013",
-      "citations": 4
+      "citations": 4,
+      "x_topo": 2.9940224,
+      "y_topo": 2.8072577,
+      "x_hybrid": 3.211819,
+      "y_hybrid": -1.604781,
+      "x_backbone": 10.665476,
+      "y_backbone": -0.7102939,
+      "is_core": true
     },
     {
       "id": "W2109241830",
-      "citations": 5
+      "citations": 5,
+      "x_topo": 3.0868027,
+      "y_topo": 0.5138534,
+      "x_hybrid": 2.7761135,
+      "y_hybrid": -2.2825396,
+      "x_backbone": 11.076594,
+      "y_backbone": -1.0154079,
+      "is_core": true
     },
     {
       "id": "W2151228210",
-      "citations": 3
+      "citations": 3,
+      "x_topo": 4.0371943,
+      "y_topo": 4.939184,
+      "x_hybrid": 9.601176,
+      "y_hybrid": 10.916306,
+      "x_backbone": -2.1216083,
+      "y_backbone": 3.9318368,
+      "is_core": true
     },
     {
       "id": "W2151475658",
-      "citations": 6
+      "citations": 6,
+      "x_topo": 4.3697696,
+      "y_topo": 4.551655,
+      "x_hybrid": 9.545933,
+      "y_hybrid": 11.099575,
+      "x_backbone": -2.3824973,
+      "y_backbone": 3.7462833,
+      "is_core": true
     },
     {
       "id": "W4237402756",
-      "citations": 16
+      "citations": 16,
+      "x_topo": 3.5078216,
+      "y_topo": 5.032225,
+      "x_hybrid": 8.766729,
+      "y_hybrid": 10.321345,
+      "x_backbone": 7.5906277,
+      "y_backbone": 7.1632605,
+      "is_core": true
     },
     {
       "id": "W4248054006",
-      "citations": 13
+      "citations": 13,
+      "x_topo": 1.6242383,
+      "y_topo": 2.7356126,
+      "x_hybrid": 8.364073,
+      "y_hybrid": 9.998619,
+      "x_backbone": 8.809034,
+      "y_backbone": 2.6006813,
+      "is_core": true
     },
     {
       "id": "W4246560761",
-      "citations": 4
+      "citations": 4,
+      "x_topo": 1.6671901,
+      "y_topo": 5.36586,
+      "x_hybrid": 9.20534,
+      "y_hybrid": 10.785171,
+      "x_backbone": 7.467309,
+      "y_backbone": 9.139383,
+      "is_core": true
     },
     {
       "id": "W2122089115",
-      "citations": 6
+      "citations": 6,
+      "x_topo": 1.3000953,
+      "y_topo": 3.5172176,
+      "x_hybrid": 8.918744,
+      "y_hybrid": 10.452239,
+      "x_backbone": 7.472966,
+      "y_backbone": 7.566886,
+      "is_core": true
     },
     {
       "id": "W4255374521",
-      "citations": 2
+      "citations": 2,
+      "x_topo": 4.8393807,
+      "y_topo": 4.736074,
+      "x_hybrid": 9.415103,
+      "y_hybrid": 11.201205,
+      "is_core": false
     },
     {
       "id": "W4248940208",
-      "citations": 4
+      "citations": 4,
+      "x_topo": 1.1230016,
+      "y_topo": 3.8728821,
+      "x_hybrid": 8.839706,
+      "y_hybrid": 10.040906,
+      "x_backbone": 11.297457,
+      "y_backbone": 6.171701,
+      "is_core": true
     },
     {
       "id": "W2130773579",
-      "citations": 1
+      "citations": 1,
+      "x_topo": 4.6589575,
+      "y_topo": 3.812052,
+      "x_hybrid": 9.047018,
+      "y_hybrid": 10.200679,
+      "x_backbone": 10.477793,
+      "y_backbone": 7.2580633,
+      "is_core": true
     },
     {
       "id": "W4245815701",
-      "citations": 6
+      "citations": 6,
+      "x_topo": 3.332463,
+      "y_topo": 4.657008,
+      "x_hybrid": 9.20106,
+      "y_hybrid": 10.876554,
+      "x_backbone": 5.9612026,
+      "y_backbone": 8.566518,
+      "is_core": true
     },
     {
       "id": "W2160946550",
-      "citations": 7
+      "citations": 7,
+      "x_topo": 3.0782726,
+      "y_topo": 0.51334345,
+      "x_hybrid": 2.7668862,
+      "y_hybrid": -2.346114,
+      "x_backbone": 11.159506,
+      "y_backbone": -1.0719427,
+      "is_core": true
     },
     {
       "id": "W2121801675",
-      "citations": 3
+      "citations": 3,
+      "x_topo": 3.1278224,
+      "y_topo": 4.6962514,
+      "x_hybrid": 9.127328,
+      "y_hybrid": 10.796538,
+      "x_backbone": 5.7714443,
+      "y_backbone": 7.667504,
+      "is_core": true
     },
     {
       "id": "W2098819183",
-      "citations": 11
+      "citations": 11,
+      "x_topo": 3.0058956,
+      "y_topo": 0.496754,
+      "x_hybrid": 2.6822891,
+      "y_hybrid": -2.3512974,
+      "x_backbone": 11.376353,
+      "y_backbone": -1.1986762,
+      "is_core": true
     },
     {
       "id": "W4233044874",
-      "citations": 1
+      "citations": 1,
+      "x_topo": 13.118201,
+      "y_topo": 8.2938175,
+      "x_hybrid": 9.59305,
+      "y_hybrid": 12.026274,
+      "is_core": false
     },
     {
       "id": "W2092640130",
-      "citations": 9
+      "citations": 9,
+      "x_topo": 2.8517184,
+      "y_topo": -0.009174896,
+      "x_hybrid": 2.4724026,
+      "y_hybrid": -2.621762,
+      "x_backbone": 11.670243,
+      "y_backbone": -1.6097406,
+      "is_core": true
     },
     {
       "id": "W2145535795",
-      "citations": 5
+      "citations": 5,
+      "x_topo": 2.0350504,
+      "y_topo": 5.4897456,
+      "x_hybrid": 8.936517,
+      "y_hybrid": 10.072893,
+      "x_backbone": 11.322019,
+      "y_backbone": 6.552227,
+      "is_core": true
     },
     {
       "id": "W4242572228",
-      "citations": 7
+      "citations": 7,
+      "x_topo": 0.660065,
+      "y_topo": 3.135218,
+      "x_hybrid": 8.789695,
+      "y_hybrid": 10.442306,
+      "x_backbone": 7.515207,
+      "y_backbone": 7.2578444,
+      "is_core": true
     },
     {
       "id": "W4237375676",
-      "citations": 2
+      "citations": 2,
+      "x_topo": -0.13484985,
+      "y_topo": 5.389842,
+      "x_hybrid": 9.038642,
+      "y_hybrid": 11.901822,
+      "is_core": false
     },
     {
       "id": "W4250947857",
-      "citations": 4
+      "citations": 4,
+      "x_topo": 1.2257749,
+      "y_topo": 4.818684,
+      "x_hybrid": 9.011396,
+      "y_hybrid": 11.138256,
+      "x_backbone": 5.400591,
+      "y_backbone": 10.379726,
+      "is_core": true
     },
     {
       "id": "W2131275470",
-      "citations": 3
+      "citations": 3,
+      "x_topo": 3.9993856,
+      "y_topo": 4.958555,
+      "x_hybrid": 9.134905,
+      "y_hybrid": 11.011024,
+      "x_backbone": 6.046578,
+      "y_backbone": 8.090799,
+      "is_core": true
     },
     {
       "id": "W4252643390",
-      "citations": 9
+      "citations": 9,
+      "x_topo": 1.6233702,
+      "y_topo": 2.841862,
+      "x_hybrid": 8.463145,
+      "y_hybrid": 10.147015,
+      "x_backbone": 8.85747,
+      "y_backbone": 2.6057494,
+      "is_core": true
     },
     {
       "id": "W4242926086",
-      "citations": 9
+      "citations": 9,
+      "x_topo": 3.0413632,
+      "y_topo": 0.51903766,
+      "x_hybrid": 2.7506232,
+      "y_hybrid": -2.3050547,
+      "x_backbone": 11.19015,
+      "y_backbone": -1.084563,
+      "is_core": true
     },
     {
       "id": "W2114975239",
-      "citations": 15
+      "citations": 15,
+      "x_topo": 2.7717423,
+      "y_topo": 0.68647337,
+      "x_hybrid": 2.7365608,
+      "y_hybrid": -2.2900887,
+      "x_backbone": 11.029638,
+      "y_backbone": -0.97486407,
+      "is_core": true
     },
     {
       "id": "W4253616902",
-      "citations": 3
+      "citations": 3,
+      "x_topo": 3.3280423,
+      "y_topo": 3.5818255,
+      "x_hybrid": 9.254545,
+      "y_hybrid": 11.702987,
+      "x_backbone": -2.0802066,
+      "y_backbone": 4.1558642,
+      "is_core": true
     },
     {
       "id": "W2172049659",
-      "citations": 2
+      "citations": 2,
+      "x_topo": 3.006526,
+      "y_topo": 1.1676731,
+      "x_hybrid": 3.1134698,
+      "y_hybrid": -1.788442,
+      "x_backbone": 10.692909,
+      "y_backbone": -0.7044013,
+      "is_core": true
     },
     {
       "id": "W4245217443",
-      "citations": 30
+      "citations": 30,
+      "x_topo": 1.5226189,
+      "y_topo": 2.1454744,
+      "x_hybrid": 8.270407,
+      "y_hybrid": 10.0207615,
+      "x_backbone": 8.80077,
+      "y_backbone": 2.5715907,
+      "is_core": true
     },
     {
       "id": "W2058462165",
-      "citations": 2
+      "citations": 2,
+      "x_topo": 3.2521725,
+      "y_topo": 4.633528,
+      "x_hybrid": 9.048298,
+      "y_hybrid": 10.752851,
+      "x_backbone": 8.839222,
+      "y_backbone": 8.048423,
+      "is_core": true
     },
     {
       "id": "W4250305371",
-      "citations": 25
+      "citations": 25,
+      "x_topo": 1.9111738,
+      "y_topo": 2.9603162,
+      "x_hybrid": 8.2146435,
+      "y_hybrid": 9.982241,
+      "x_backbone": 8.866366,
+      "y_backbone": 2.2591279,
+      "is_core": true
     },
     {
       "id": "W3041520455",
-      "citations": 9
+      "citations": 9,
+      "x_topo": 2.9330318,
+      "y_topo": 1.1394895,
+      "x_hybrid": 3.1405683,
+      "y_hybrid": -1.7910475,
+      "x_backbone": 10.695508,
+      "y_backbone": -0.705835,
+      "is_core": true
     },
     {
       "id": "W2033034731",
-      "citations": 7
+      "citations": 7,
+      "x_topo": 3.0188177,
+      "y_topo": 0.9159574,
+      "x_hybrid": 2.9664865,
+      "y_hybrid": -2.1707706,
+      "x_backbone": 10.935769,
+      "y_backbone": -0.89389205,
+      "is_core": true
     },
     {
       "id": "W1523882855",
-      "citations": 2
+      "citations": 2,
+      "x_topo": 2.9107409,
+      "y_topo": 4.6699247,
+      "x_hybrid": 8.948848,
+      "y_hybrid": 12.02951,
+      "x_backbone": -2.5429957,
+      "y_backbone": 10.608057,
+      "is_core": true
     },
     {
       "id": "W4246423046",
-      "citations": 4
+      "citations": 4,
+      "x_topo": 0.7046824,
+      "y_topo": 5.9328837,
+      "x_hybrid": 8.850269,
+      "y_hybrid": 12.172145,
+      "is_core": false
     },
     {
       "id": "W3085563693",
-      "citations": 14
+      "citations": 14,
+      "x_topo": 2.77005,
+      "y_topo": -0.008943852,
+      "x_hybrid": 2.442079,
+      "y_hybrid": -2.6865559,
+      "x_backbone": 11.688391,
+      "y_backbone": -1.6318283,
+      "is_core": true
     },
     {
       "id": "W2051390054",
-      "citations": 8
+      "citations": 8,
+      "x_topo": 3.6640747,
+      "y_topo": 5.041665,
+      "x_hybrid": 8.964748,
+      "y_hybrid": 10.82254,
+      "x_backbone": 5.880194,
+      "y_backbone": 7.5926156,
+      "is_core": true
     },
     {
       "id": "W2124174101",
-      "citations": 3
+      "citations": 3,
+      "x_topo": 4.5683284,
+      "y_topo": 5.215101,
+      "x_hybrid": 8.8729515,
+      "y_hybrid": 11.925835,
+      "is_core": false
     },
     {
       "id": "W2099320905",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 4.8053584,
+      "y_topo": -4.957866,
+      "is_core": false
     },
     {
       "id": "W1508936657",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 10.127309,
+      "y_topo": 5.899489,
+      "is_core": false
     },
     {
       "id": "W6703530145",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 14.550559,
+      "y_topo": 10.361422,
+      "is_core": false
     },
     {
       "id": "W2141496966",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 13.296643,
+      "y_topo": 7.54975,
+      "is_core": false
     },
     {
       "id": "W3004210113",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 0.7637328,
+      "y_topo": 7.0764475,
+      "is_core": false
     },
     {
       "id": "W2054121285",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 0.25822014,
+      "y_topo": 3.7670195,
+      "is_core": false
     },
     {
       "id": "W1985642873",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 5.2554092,
+      "y_topo": -10.420874,
+      "is_core": false
     },
     {
       "id": "W2121735375",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 0.78115815,
+      "y_topo": 2.4252582,
+      "is_core": false
     },
     {
       "id": "W2240574373",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 3.1425261,
+      "y_topo": 0.15134151,
+      "is_core": false
     },
     {
       "id": "W11292410",
-      "citations": 0
+      "citations": 0,
+      "x_topo": -1.9124725,
+      "y_topo": -0.95924985,
+      "is_core": false
     },
     {
       "id": "W2006449437",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 1.4706652,
+      "y_topo": 1.8928676,
+      "is_core": false
     },
     {
       "id": "W1970663018",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 5.2301474,
+      "y_topo": -10.401758,
+      "is_core": false
     },
     {
       "id": "W2142499637",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 2.075794,
+      "y_topo": 0.7857951,
+      "is_core": false
     },
     {
       "id": "W1528397734",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 5.3135185,
+      "y_topo": -10.484452,
+      "is_core": false
     },
     {
       "id": "W2465771390",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 0.6625758,
+      "y_topo": 2.620994,
+      "is_core": false
     },
     {
       "id": "W1788997585",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 4.6967797,
+      "y_topo": -5.039396,
+      "is_core": false
     },
     {
       "id": "W4243122173",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 6.947756,
+      "y_topo": 5.03846,
+      "is_core": false
     },
     {
       "id": "W2103604870",
-      "citations": 0
+      "citations": 0,
+      "x_topo": -0.13367967,
+      "y_topo": 5.4726825,
+      "is_core": false
     },
     {
       "id": "W1532701078",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 0.8608821,
+      "y_topo": 2.486831,
+      "is_core": false
     },
     {
       "id": "W2103504566",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 10.710364,
+      "y_topo": 19.975946,
+      "is_core": false
     },
     {
       "id": "W2158540213",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 1.4104404,
+      "y_topo": 1.8940539,
+      "is_core": false
     },
     {
       "id": "W6636549814",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 10.753952,
+      "y_topo": 20.019999,
+      "is_core": false
     },
     {
       "id": "W2047046780",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 2.1477098,
+      "y_topo": 0.6587852,
+      "is_core": false
     },
     {
       "id": "W1491525961",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 3.3548694,
+      "y_topo": 20.366575,
+      "is_core": false
     },
     {
       "id": "W2151631165",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 0.64990544,
+      "y_topo": 3.5988498,
+      "is_core": false
     },
     {
       "id": "W4232019315",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 1.1845902,
+      "y_topo": 3.2618546,
+      "is_core": false
     },
     {
       "id": "W1507889901",
-      "citations": 0
+      "citations": 0,
+      "x_topo": -3.189234,
+      "y_topo": 10.072501,
+      "is_core": false
     },
     {
       "id": "W2041064634",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 13.172312,
+      "y_topo": 5.3940454,
+      "is_core": false
     },
     {
       "id": "W2023518305",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 2.9848027,
+      "y_topo": 1.0013342,
+      "is_core": false
     },
     {
       "id": "W2061323261",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 3.3261943,
+      "y_topo": 1.8180956,
+      "is_core": false
     },
     {
       "id": "W4255272544",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 0.6870332,
+      "y_topo": 4.2304745,
+      "is_core": false
     },
     {
       "id": "W2912041544",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 2.6659229,
+      "y_topo": 17.782377,
+      "is_core": false
     },
     {
       "id": "W1592970628",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 10.707396,
+      "y_topo": 20.003387,
+      "is_core": false
     },
     {
       "id": "W2033764699",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 0.69064265,
+      "y_topo": 2.7967288,
+      "is_core": false
     },
     {
       "id": "W2132973123",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 15.684795,
+      "y_topo": 5.16031,
+      "is_core": false
     },
     {
       "id": "W2114117853",
-      "citations": 0
+      "citations": 0,
+      "x_topo": -3.4766994,
+      "y_topo": 2.1744525,
+      "is_core": false
     },
     {
       "id": "W2037116442",
-      "citations": 0
+      "citations": 0,
+      "x_topo": -3.2806172,
+      "y_topo": 2.1147318,
+      "is_core": false
     },
     {
       "id": "W2127453131",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 12.780618,
+      "y_topo": 6.024452,
+      "is_core": false
     },
     {
       "id": "W4239459880",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 15.632945,
+      "y_topo": 5.112865,
+      "is_core": false
     },
     {
       "id": "W1992605021",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 9.998839,
+      "y_topo": 10.382556,
+      "is_core": false
     },
     {
       "id": "W2050753931",
-      "citations": 0
+      "citations": 0,
+      "x_topo": -1.2575812,
+      "y_topo": 5.3829794,
+      "is_core": false
     },
     {
       "id": "W1986084035",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 3.1033962,
+      "y_topo": 1.4709972,
+      "is_core": false
     },
     {
       "id": "W2128435165",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 3.1699696,
+      "y_topo": 1.4237187,
+      "is_core": false
     },
     {
       "id": "W2004684017",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 15.571707,
+      "y_topo": 5.055533,
+      "is_core": false
     },
     {
       "id": "W2153079896",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 1.3662932,
+      "y_topo": 2.1128445,
+      "is_core": false
     },
     {
       "id": "W2997144757",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 2.064111,
+      "y_topo": 1.7590234,
+      "is_core": false
     },
     {
       "id": "W577647189",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 7.005563,
+      "y_topo": -12.130309,
+      "is_core": false
     },
     {
       "id": "W2094278707",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 13.232621,
+      "y_topo": 5.3200693,
+      "is_core": false
     },
     {
       "id": "W4300885858",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 0.69245124,
+      "y_topo": -2.306285,
+      "is_core": false
     },
     {
       "id": "W2035789554",
-      "citations": 0
+      "citations": 0,
+      "x_topo": -3.3997984,
+      "y_topo": 2.2001975,
+      "is_core": false
     },
     {
       "id": "W2061477654",
-      "citations": 0
+      "citations": 0,
+      "x_topo": -2.334508,
+      "y_topo": -6.833476,
+      "is_core": false
     },
     {
       "id": "W1608681432",
-      "citations": 0
+      "citations": 0,
+      "x_topo": -5.7002416,
+      "y_topo": 11.312112,
+      "is_core": false
     },
     {
       "id": "W2095769364",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 2.733259,
+      "y_topo": 2.6946027,
+      "is_core": false
     },
     {
       "id": "W2043896016",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 2.1021256,
+      "y_topo": 0.7497828,
+      "is_core": false
     },
     {
       "id": "W2132750992",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 0.6859785,
+      "y_topo": -2.2979522,
+      "is_core": false
     },
     {
       "id": "W2986047257",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 0.98155826,
+      "y_topo": 5.6448193,
+      "is_core": false
     },
     {
       "id": "W2037226982",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 3.1395931,
+      "y_topo": 0.62028503,
+      "is_core": false
     },
     {
       "id": "W2163178194",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 15.686602,
+      "y_topo": 5.171182,
+      "is_core": false
     },
     {
       "id": "W2114788602",
-      "citations": 0
+      "citations": 0,
+      "x_topo": -2.3209507,
+      "y_topo": -6.623452,
+      "is_core": false
     },
     {
       "id": "W2091981070",
-      "citations": 0
+      "citations": 0,
+      "x_topo": -1.9065101,
+      "y_topo": -1.026525,
+      "is_core": false
     },
     {
       "id": "W2024403195",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 15.691526,
+      "y_topo": 5.1624403,
+      "is_core": false
     },
     {
       "id": "W2150231504",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 1.9266106,
+      "y_topo": 1.1460384,
+      "is_core": false
     },
     {
       "id": "W2000359638",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 3.5546334,
+      "y_topo": 2.5916495,
+      "is_core": false
     },
     {
       "id": "W2479937149",
-      "citations": 0
+      "citations": 0,
+      "x_topo": -0.20017594,
+      "y_topo": 5.1880107,
+      "is_core": false
     },
     {
       "id": "W1483074584",
-      "citations": 0
+      "citations": 0,
+      "x_topo": -4.0816755,
+      "y_topo": -2.815353,
+      "is_core": false
     },
     {
       "id": "W24343289",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 2.6699178,
+      "y_topo": 17.77399,
+      "is_core": false
     },
     {
       "id": "W1561564976",
-      "citations": 0
+      "citations": 0,
+      "x_topo": -5.5533485,
+      "y_topo": 11.458191,
+      "is_core": false
     },
     {
       "id": "W2076504750",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 9.12577,
+      "y_topo": 18.658173,
+      "is_core": false
     },
     {
       "id": "W2048253836",
-      "citations": 0
+      "citations": 0,
+      "x_topo": -5.782285,
+      "y_topo": 11.222698,
+      "is_core": false
     },
     {
       "id": "W2068613363",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 9.022084,
+      "y_topo": 18.598047,
+      "is_core": false
     },
     {
       "id": "W2082831927",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 3.060842,
+      "y_topo": 0.0105604455,
+      "is_core": false
     },
     {
       "id": "W2058585388",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 3.0724914,
+      "y_topo": 2.8298767,
+      "is_core": false
     },
     {
       "id": "W2018679552",
-      "citations": 0
+      "citations": 0,
+      "x_topo": -2.7342803,
+      "y_topo": 10.609996,
+      "is_core": false
     },
     {
       "id": "W2918158892",
-      "citations": 0
+      "citations": 0,
+      "x_topo": -1.3031626,
+      "y_topo": 14.910649,
+      "is_core": false
     },
     {
       "id": "W1987654363",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 9.475948,
+      "y_topo": 5.67863,
+      "is_core": false
     },
     {
       "id": "W2161581092",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 2.168096,
+      "y_topo": 0.6293827,
+      "is_core": false
     },
     {
       "id": "W2162324874",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 7.76255,
+      "y_topo": -10.200787,
+      "is_core": false
     },
     {
       "id": "W2127307450",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 2.060206,
+      "y_topo": 1.7579484,
+      "is_core": false
     },
     {
       "id": "W2024251976",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 3.1989932,
+      "y_topo": 0.7434242,
+      "is_core": false
     },
     {
       "id": "W2119231080",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 2.3129673,
+      "y_topo": 0.44687328,
+      "is_core": false
     },
     {
       "id": "W1493220939",
-      "citations": 0
+      "citations": 0,
+      "x_topo": -1.3341732,
+      "y_topo": 14.969693,
+      "is_core": false
     },
     {
       "id": "W2060810539",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 1.8998766,
+      "y_topo": 4.1477733,
+      "is_core": false
     },
     {
       "id": "W2262553485",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 5.229599,
+      "y_topo": -10.393382,
+      "is_core": false
     },
     {
       "id": "W1793416905",
-      "citations": 0
+      "citations": 0,
+      "x_topo": -0.88819647,
+      "y_topo": 7.484432,
+      "is_core": false
     },
     {
       "id": "W1995341907",
-      "citations": 0
+      "citations": 0,
+      "x_topo": -5.6853285,
+      "y_topo": 11.316921,
+      "is_core": false
     },
     {
       "id": "W2074126466",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 1.6189724,
+      "y_topo": 1.5454004,
+      "is_core": false
     },
     {
       "id": "W1566889779",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 11.180513,
+      "y_topo": 6.2594595,
+      "is_core": false
     },
     {
       "id": "W2044724418",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 1.8940125,
+      "y_topo": 1.591601,
+      "is_core": false
     },
     {
       "id": "W1994045646",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 1.1664912,
+      "y_topo": 4.102466,
+      "is_core": false
     },
     {
       "id": "W2152093101",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 7.897958,
+      "y_topo": -10.072259,
+      "is_core": false
     },
     {
       "id": "W2109427741",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 2.656757,
+      "y_topo": 17.792828,
+      "is_core": false
     },
     {
       "id": "W2078519269",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 1.1289266,
+      "y_topo": 4.718664,
+      "is_core": false
     },
     {
       "id": "W2141448020",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 1.6468911,
+      "y_topo": 1.4959257,
+      "is_core": false
     },
     {
       "id": "W2006512450",
-      "citations": 0
+      "citations": 0,
+      "x_topo": -2.2554402,
+      "y_topo": -6.814457,
+      "is_core": false
     },
     {
       "id": "W4213233865",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 3.0128734,
+      "y_topo": 0.92565477,
+      "is_core": false
     },
     {
       "id": "W2030977770",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 7.8523717,
+      "y_topo": -10.115801,
+      "is_core": false
     },
     {
       "id": "W2130037047",
-      "citations": 0
+      "citations": 0,
+      "x_topo": -2.137614,
+      "y_topo": 7.1055546,
+      "is_core": false
     },
     {
       "id": "W1763430070",
-      "citations": 0
+      "citations": 0,
+      "x_topo": -5.5802846,
+      "y_topo": 11.430841,
+      "is_core": false
     },
     {
       "id": "W2031639411",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 10.737154,
+      "y_topo": 20.000202,
+      "is_core": false
     },
     {
       "id": "W21028567",
-      "citations": 0
+      "citations": 0,
+      "x_topo": -2.2336235,
+      "y_topo": -6.7642756,
+      "is_core": false
     },
     {
       "id": "W1495029255",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 9.521058,
+      "y_topo": 5.6944537,
+      "is_core": false
     },
     {
       "id": "W3161133469",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 9.997425,
+      "y_topo": 10.382338,
+      "is_core": false
     },
     {
       "id": "W221670187",
-      "citations": 0
+      "citations": 0,
+      "x_topo": -6.7351437,
+      "y_topo": -0.7447241,
+      "is_core": false
     },
     {
       "id": "W1585667180",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 2.3083756,
+      "y_topo": 3.1784527,
+      "is_core": false
     },
     {
       "id": "W2157494358",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 2.732451,
+      "y_topo": 2.7287395,
+      "is_core": false
     },
     {
       "id": "W4205810926",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 1.420933,
+      "y_topo": 2.024685,
+      "is_core": false
     },
     {
       "id": "W2142661488",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 7.886387,
+      "y_topo": -10.080277,
+      "is_core": false
     },
     {
       "id": "W2188057781",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 10.689575,
+      "y_topo": 19.978409,
+      "is_core": false
     },
     {
       "id": "W81133672",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 2.665215,
+      "y_topo": 17.783426,
+      "is_core": false
     },
     {
       "id": "W6608169612",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 9.098449,
+      "y_topo": 18.581556,
+      "is_core": false
     },
     {
       "id": "W2055301793",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 1.3780708,
+      "y_topo": 1.8780149,
+      "is_core": false
     },
     {
       "id": "W6701658328",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 10.678219,
+      "y_topo": 19.929697,
+      "is_core": false
     },
     {
       "id": "W6600427296",
-      "citations": 0
+      "citations": 0,
+      "x_topo": -1.8416679,
+      "y_topo": -1.0451432,
+      "is_core": false
     },
     {
       "id": "W2914973542",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 2.085666,
+      "y_topo": 0.79264855,
+      "is_core": false
     },
     {
       "id": "W2017794685",
-      "citations": 0
+      "citations": 0,
+      "x_topo": -2.19032,
+      "y_topo": -6.689063,
+      "is_core": false
     },
     {
       "id": "W2055196116",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 1.7711841,
+      "y_topo": 1.3296866,
+      "is_core": false
     },
     {
       "id": "W4299298909",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 1.54544,
+      "y_topo": 1.762111,
+      "is_core": false
     },
     {
       "id": "W2041559800",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 5.979671,
+      "y_topo": 9.613504,
+      "is_core": false
     },
     {
       "id": "W2100087065",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 2.2086089,
+      "y_topo": 0.8626029,
+      "is_core": false
     },
     {
       "id": "W2076904486",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 6.310202,
+      "y_topo": 21.150875,
+      "is_core": false
     },
     {
       "id": "W2091496160",
-      "citations": 0
+      "citations": 0,
+      "x_topo": -4.0307946,
+      "y_topo": -2.765591,
+      "is_core": false
     },
     {
       "id": "W2058291496",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 3.1719477,
+      "y_topo": 0.5611095,
+      "is_core": false
     },
     {
       "id": "W2050995940",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 0.5332971,
+      "y_topo": 2.9478788,
+      "is_core": false
     },
     {
       "id": "W2126521141",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 2.2743301,
+      "y_topo": 0.69565696,
+      "is_core": false
     },
     {
       "id": "W76531697",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 6.307663,
+      "y_topo": 21.154737,
+      "is_core": false
     },
     {
       "id": "W2147771055",
-      "citations": 0
+      "citations": 0,
+      "x_topo": -3.2446847,
+      "y_topo": 2.0302198,
+      "is_core": false
     },
     {
       "id": "W1977554562",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 0.705667,
+      "y_topo": 2.6092305,
+      "is_core": false
     },
     {
       "id": "W2169488500",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 7.8415437,
+      "y_topo": -10.125976,
+      "is_core": false
     },
     {
       "id": "W3026410610",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 7.006891,
+      "y_topo": 4.846114,
+      "is_core": false
     },
     {
       "id": "W2295947439",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 0.8222348,
+      "y_topo": 4.9003277,
+      "is_core": false
     },
     {
       "id": "W1226869406",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 1.2099218,
+      "y_topo": 5.2132735,
+      "is_core": false
     },
     {
       "id": "W2109946611",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 9.47866,
+      "y_topo": 5.7472644,
+      "is_core": false
     },
     {
       "id": "W2293737032",
-      "citations": 0
+      "citations": 0,
+      "x_topo": -1.8318776,
+      "y_topo": -0.8812486,
+      "is_core": false
     },
     {
       "id": "W2147169375",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 0.79333794,
+      "y_topo": 2.5494995,
+      "is_core": false
     },
     {
       "id": "W2336763365",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 14.550769,
+      "y_topo": 10.370613,
+      "is_core": false
     },
     {
       "id": "W2981264952",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 0.5785293,
+      "y_topo": 3.013604,
+      "is_core": false
     },
     {
       "id": "W4235811007",
-      "citations": 0
+      "citations": 0,
+      "x_topo": -3.18525,
+      "y_topo": 10.066502,
+      "is_core": false
     },
     {
       "id": "W4296225958",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 7.767467,
+      "y_topo": -10.198238,
+      "is_core": false
     },
     {
       "id": "W2079919834",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 5.8553905,
+      "y_topo": -6.8504767,
+      "is_core": false
     },
     {
       "id": "W2125178187",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 18.603348,
+      "y_topo": 1.0521902,
+      "is_core": false
     },
     {
       "id": "W2071721378",
-      "citations": 0
+      "citations": 0,
+      "x_topo": -1.9439636,
+      "y_topo": -0.9894416,
+      "is_core": false
     },
     {
       "id": "W2157254270",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 0.7833076,
+      "y_topo": 3.4563394,
+      "is_core": false
     },
     {
       "id": "W2026786095",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 1.9493045,
+      "y_topo": 2.6725626,
+      "is_core": false
     },
     {
       "id": "W2167694665",
-      "citations": 0
+      "citations": 0,
+      "x_topo": -1.2983723,
+      "y_topo": 14.898449,
+      "is_core": false
     },
     {
       "id": "W113744948",
-      "citations": 0
+      "citations": 0,
+      "x_topo": -0.31853682,
+      "y_topo": 5.5189886,
+      "is_core": false
     },
     {
       "id": "W2137722861",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 2.8008702,
+      "y_topo": -0.013144075,
+      "is_core": false
     },
     {
       "id": "W2023237845",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 3.179056,
+      "y_topo": 0.2365682,
+      "is_core": false
     },
     {
       "id": "W1990334569",
-      "citations": 0
+      "citations": 0,
+      "x_topo": -7.8258896,
+      "y_topo": 13.810824,
+      "is_core": false
     },
     {
       "id": "W1521362546",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 2.8009899,
+      "y_topo": -0.023884935,
+      "is_core": false
     },
     {
       "id": "W2032783154",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 12.285529,
+      "y_topo": 3.8729334,
+      "is_core": false
     },
     {
       "id": "W1493869470",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 6.351723,
+      "y_topo": 21.103733,
+      "is_core": false
     },
     {
       "id": "W2027085107",
-      "citations": 0
+      "citations": 0,
+      "x_topo": -7.1228695,
+      "y_topo": 10.557591,
+      "is_core": false
     },
     {
       "id": "W2182692022",
-      "citations": 0
+      "citations": 0,
+      "x_topo": -4.0859556,
+      "y_topo": -2.8150685,
+      "is_core": false
     },
     {
       "id": "W2104109797",
-      "citations": 0
+      "citations": 0,
+      "x_topo": -4.5936995,
+      "y_topo": 7.3760247,
+      "is_core": false
     },
     {
       "id": "W2109521093",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 10.130157,
+      "y_topo": 5.899474,
+      "is_core": false
     },
     {
       "id": "W162475756",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 2.6286278,
+      "y_topo": 17.814531,
+      "is_core": false
     },
     {
       "id": "W1576652948",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 3.5628977,
+      "y_topo": 2.5959833,
+      "is_core": false
     },
     {
       "id": "W2087747577",
-      "citations": 0
+      "citations": 0,
+      "x_topo": -1.869809,
+      "y_topo": -0.9358896,
+      "is_core": false
     },
     {
       "id": "W2106073588",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 2.7603848,
+      "y_topo": 0.6660954,
+      "is_core": false
     },
     {
       "id": "W1620012354",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 1.2417247,
+      "y_topo": 17.804062,
+      "is_core": false
     },
     {
       "id": "W1988292524",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 9.99817,
+      "y_topo": 10.381544,
+      "is_core": false
     },
     {
       "id": "W2014921255",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 2.060444,
+      "y_topo": 1.7753508,
+      "is_core": false
     },
     {
       "id": "W136208017",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 15.643867,
+      "y_topo": 5.1176085,
+      "is_core": false
     },
     {
       "id": "W2135929598",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 0.25976422,
+      "y_topo": 6.4921,
+      "is_core": false
     },
     {
       "id": "W2494147677",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 5.317956,
+      "y_topo": -10.489749,
+      "is_core": false
     },
     {
       "id": "W2019609576",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 9.397658,
+      "y_topo": 5.6663914,
+      "is_core": false
     },
     {
       "id": "W2013650199",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 1.3034065,
+      "y_topo": 2.0947094,
+      "is_core": false
     },
     {
       "id": "W2147774191",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 1.2442781,
+      "y_topo": 3.5706599,
+      "is_core": false
     },
     {
       "id": "W2150312211",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 2.4948413,
+      "y_topo": 2.4274354,
+      "is_core": false
     },
     {
       "id": "W2156216985",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 3.3956292,
+      "y_topo": 2.245925,
+      "is_core": false
     },
     {
       "id": "W2118580158",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 1.40993,
+      "y_topo": 1.9869465,
+      "is_core": false
     },
     {
       "id": "W2017258466",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 15.658768,
+      "y_topo": 5.1404366,
+      "is_core": false
     },
     {
       "id": "W2079257256",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 1.4910027,
+      "y_topo": 1.8023812,
+      "is_core": false
     },
     {
       "id": "W1980670965",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 1.3957669,
+      "y_topo": 2.104914,
+      "is_core": false
     },
     {
       "id": "W2025364449",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 0.082542986,
+      "y_topo": 6.1718354,
+      "is_core": false
     },
     {
       "id": "W2096008749",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 15.57105,
+      "y_topo": 5.0481663,
+      "is_core": false
     },
     {
       "id": "W2123453454",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 1.4538672,
+      "y_topo": 3.0919049,
+      "is_core": false
     },
     {
       "id": "W2020753113",
-      "citations": 0
+      "citations": 0,
+      "x_topo": -2.1616542,
+      "y_topo": -6.815887,
+      "is_core": false
     },
     {
       "id": "W1978841917",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 1.925753,
+      "y_topo": 1.1431359,
+      "is_core": false
     },
     {
       "id": "W2041917974",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 15.576454,
+      "y_topo": 5.054521,
+      "is_core": false
     },
     {
       "id": "W2014281764",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 1.2420988,
+      "y_topo": 1.9764206,
+      "is_core": false
     },
     {
       "id": "W2074671888",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 3.2547507,
+      "y_topo": 1.7295922,
+      "is_core": false
     },
     {
       "id": "W1553074388",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 0.6892625,
+      "y_topo": -2.2992992,
+      "is_core": false
     },
     {
       "id": "W2134272728",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 0.7463773,
+      "y_topo": 2.4514217,
+      "is_core": false
     },
     {
       "id": "W1992782955",
-      "citations": 0
+      "citations": 0,
+      "x_topo": -5.503402,
+      "y_topo": 11.5118065,
+      "is_core": false
     },
     {
       "id": "W1570908156",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 4.10565,
+      "y_topo": -1.715435,
+      "is_core": false
     },
     {
       "id": "W2132881639",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 2.1807606,
+      "y_topo": 0.6075321,
+      "is_core": false
     },
     {
       "id": "W1572058254",
-      "citations": 0
+      "citations": 0,
+      "x_topo": -5.5692315,
+      "y_topo": 11.447789,
+      "is_core": false
     },
     {
       "id": "W2165501507",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 0.5644392,
+      "y_topo": 3.3516524,
+      "is_core": false
     },
     {
       "id": "W2100350068",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 2.6040652,
+      "y_topo": 0.07391681,
+      "is_core": false
     },
     {
       "id": "W1525732197",
-      "citations": 0
+      "citations": 0,
+      "x_topo": -1.9130203,
+      "y_topo": -1.0340708,
+      "is_core": false
     },
     {
       "id": "W2101920751",
-      "citations": 0
+      "citations": 0,
+      "x_topo": -1.2379419,
+      "y_topo": 5.3664923,
+      "is_core": false
     },
     {
       "id": "W147723833",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 0.28026477,
+      "y_topo": 6.5083795,
+      "is_core": false
     },
     {
       "id": "W2064866285",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 0.083239704,
+      "y_topo": 5.6180596,
+      "is_core": false
     },
     {
       "id": "W2130395611",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 9.999371,
+      "y_topo": 10.38166,
+      "is_core": false
     },
     {
       "id": "W2044710750",
-      "citations": 0
+      "citations": 0,
+      "x_topo": -1.8533263,
+      "y_topo": -1.0611525,
+      "is_core": false
     },
     {
       "id": "W1998252779",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 14.456332,
+      "y_topo": -9.09708,
+      "is_core": false
     },
     {
       "id": "W1965990528",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 7.073522,
+      "y_topo": 4.629347,
+      "is_core": false
     },
     {
       "id": "W2008581147",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 1.3615768,
+      "y_topo": 2.1299372,
+      "is_core": false
     },
     {
       "id": "W3004728147",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 2.6474938,
+      "y_topo": 17.799164,
+      "is_core": false
     },
     {
       "id": "W2031216062",
-      "citations": 0
+      "citations": 0,
+      "x_topo": -3.2216203,
+      "y_topo": 2.0633671,
+      "is_core": false
     },
     {
       "id": "W2013928735",
-      "citations": 0
+      "citations": 0,
+      "x_topo": -7.8386354,
+      "y_topo": 13.81163,
+      "is_core": false
     },
     {
       "id": "W1484471363",
-      "citations": 0
+      "citations": 0,
+      "x_topo": -0.22324303,
+      "y_topo": 5.3557644,
+      "is_core": false
     },
     {
       "id": "W4238430776",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 3.6653838,
+      "y_topo": 2.503401,
+      "is_core": false
     },
     {
       "id": "W2165525587",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 3.1848643,
+      "y_topo": 2.505737,
+      "is_core": false
     },
     {
       "id": "W2028391713",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 1.9014556,
+      "y_topo": 1.1526237,
+      "is_core": false
     },
     {
       "id": "W4236888462",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 2.0779927,
+      "y_topo": 0.79482,
+      "is_core": false
     },
     {
       "id": "W2079079460",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 3.2301817,
+      "y_topo": 2.7375734,
+      "is_core": false
     },
     {
       "id": "W1503521812",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 5.902981,
+      "y_topo": -6.8050585,
+      "is_core": false
     },
     {
       "id": "W2229412420",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 2.397529,
+      "y_topo": 0.34311268,
+      "is_core": false
     },
     {
       "id": "W4298380396",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 1.0376096,
+      "y_topo": 2.1605053,
+      "is_core": false
     },
     {
       "id": "W1486999524",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 0.69138056,
+      "y_topo": 4.2519956,
+      "is_core": false
     },
     {
       "id": "W2033866250",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 5.238208,
+      "y_topo": -10.411564,
+      "is_core": false
     },
     {
       "id": "W2123922130",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 9.051677,
+      "y_topo": 18.564072,
+      "is_core": false
     },
     {
       "id": "W215776426",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 9.080156,
+      "y_topo": 18.601034,
+      "is_core": false
     },
     {
       "id": "W1973071447",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 2.6283746,
+      "y_topo": 17.813805,
+      "is_core": false
     },
     {
       "id": "W2144909841",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 2.5398846,
+      "y_topo": 2.1993325,
+      "is_core": false
     },
     {
       "id": "W2002774347",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 10.341619,
+      "y_topo": -0.5986409,
+      "is_core": false
     },
     {
       "id": "W2180674706",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 9.998959,
+      "y_topo": 10.382564,
+      "is_core": false
     },
     {
       "id": "W1501791178",
-      "citations": 0
+      "citations": 0,
+      "x_topo": -2.3055298,
+      "y_topo": -6.6626244,
+      "is_core": false
     },
     {
       "id": "W1821419925",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 2.5879607,
+      "y_topo": 17.859524,
+      "is_core": false
     },
     {
       "id": "W1985358860",
-      "citations": 0
+      "citations": 0,
+      "x_topo": -2.1289093,
+      "y_topo": -6.6593833,
+      "is_core": false
     },
     {
       "id": "W3187900922",
-      "citations": 0
+      "citations": 0,
+      "x_topo": -0.20914535,
+      "y_topo": 4.9876313,
+      "is_core": false
     },
     {
       "id": "W2144100142",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 15.640883,
+      "y_topo": 5.1170607,
+      "is_core": false
     },
     {
       "id": "W2153157788",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 3.1900084,
+      "y_topo": 0.7826035,
+      "is_core": false
     },
     {
       "id": "W82263790",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 7.8518596,
+      "y_topo": -10.116035,
+      "is_core": false
     },
     {
       "id": "W4247537352",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 9.998429,
+      "y_topo": 5.8493156,
+      "is_core": false
     },
     {
       "id": "W1546087632",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 5.239032,
+      "y_topo": -10.411019,
+      "is_core": false
     },
     {
       "id": "W1968704804",
-      "citations": 0
+      "citations": 0,
+      "x_topo": -0.48660848,
+      "y_topo": 5.832176,
+      "is_core": false
     },
     {
       "id": "W2087698847",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 4.884393,
+      "y_topo": 2.9120047,
+      "is_core": false
     },
     {
       "id": "W1612551514",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 4.409525,
+      "y_topo": 9.353071,
+      "is_core": false
     },
     {
       "id": "W1967833142",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 13.648196,
+      "y_topo": 6.5568385,
+      "is_core": false
     },
     {
       "id": "W1981219099",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 10.778026,
+      "y_topo": 19.946913,
+      "is_core": false
     },
     {
       "id": "W1993302048",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 2.6803267,
+      "y_topo": 0.9770997,
+      "is_core": false
     },
     {
       "id": "W4230163235",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 1.4248258,
+      "y_topo": 1.8159971,
+      "is_core": false
     },
     {
       "id": "W1895807863",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 4.7782836,
+      "y_topo": -7.3616467,
+      "is_core": false
     },
     {
       "id": "W2029638071",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 12.403073,
+      "y_topo": 4.01934,
+      "is_core": false
     },
     {
       "id": "W2031738947",
-      "citations": 0
+      "citations": 0,
+      "x_topo": -2.1319659,
+      "y_topo": -6.6383147,
+      "is_core": false
     },
     {
       "id": "W2026058811",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 1.9775419,
+      "y_topo": 1.3295703,
+      "is_core": false
     },
     {
       "id": "W2085836993",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 3.088731,
+      "y_topo": 0.31043157,
+      "is_core": false
     },
     {
       "id": "W1982574577",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 3.3472197,
+      "y_topo": -3.882278,
+      "is_core": false
     },
     {
       "id": "W2062261913",
-      "citations": 0
+      "citations": 0,
+      "x_topo": -2.1384706,
+      "y_topo": 7.1055646,
+      "is_core": false
     },
     {
       "id": "W2090119071",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 0.8042114,
+      "y_topo": 4.3282766,
+      "is_core": false
     },
     {
       "id": "W2012445571",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 9.065316,
+      "y_topo": 18.692327,
+      "is_core": false
     },
     {
       "id": "W1993671632",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 3.2248857,
+      "y_topo": 2.776326,
+      "is_core": false
     },
     {
       "id": "W2103764398",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 4.830522,
+      "y_topo": -4.897075,
+      "is_core": false
     },
     {
       "id": "W4244543066",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 4.1112022,
+      "y_topo": -1.7099103,
+      "is_core": false
     },
     {
       "id": "W2040513229",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 10.699092,
+      "y_topo": 19.932001,
+      "is_core": false
     },
     {
       "id": "W4231311245",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 1.7675004,
+      "y_topo": 1.7241211,
+      "is_core": false
     },
     {
       "id": "W2036345186",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 2.8766203,
+      "y_topo": 0.09558599,
+      "is_core": false
     },
     {
       "id": "W3004324868",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 3.4062154,
+      "y_topo": 9.366621,
+      "is_core": false
     },
     {
       "id": "W1842851724",
-      "citations": 0
+      "citations": 0,
+      "x_topo": -5.4705715,
+      "y_topo": 9.49698,
+      "is_core": false
     },
     {
       "id": "W2168467299",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 5.246625,
+      "y_topo": -10.406498,
+      "is_core": false
     },
     {
       "id": "W4236710381",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 15.147565,
+      "y_topo": 16.362415,
+      "is_core": false
     },
     {
       "id": "W2026792068",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 10.343455,
+      "y_topo": -0.5934662,
+      "is_core": false
     },
     {
       "id": "W2130037767",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 5.9089,
+      "y_topo": -6.7904096,
+      "is_core": false
     },
     {
       "id": "W2019411050",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 9.074695,
+      "y_topo": 18.645782,
+      "is_core": false
     },
     {
       "id": "W2148513397",
-      "citations": 0
+      "citations": 0,
+      "x_topo": -2.2272906,
+      "y_topo": -6.5922236,
+      "is_core": false
     },
     {
       "id": "W6634953874",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 2.8531237,
+      "y_topo": 3.090906,
+      "is_core": false
     },
     {
       "id": "W4249596301",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 5.2301435,
+      "y_topo": -10.391967,
+      "is_core": false
     },
     {
       "id": "W2146150033",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 2.7770972,
+      "y_topo": -0.0043578018,
+      "is_core": false
     },
     {
       "id": "W2070744438",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 7.8847814,
+      "y_topo": -10.083945,
+      "is_core": false
     },
     {
       "id": "W2053389688",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 13.103799,
+      "y_topo": 5.42735,
+      "is_core": false
     },
     {
       "id": "W2911463214",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 1.4568145,
+      "y_topo": 3.8519158,
+      "is_core": false
     },
     {
       "id": "W1997057955",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 1.6819326,
+      "y_topo": 1.4795808,
+      "is_core": false
     },
     {
       "id": "W6625222864",
-      "citations": 0
+      "citations": 0,
+      "x_topo": -3.19298,
+      "y_topo": 10.077438,
+      "is_core": false
     },
     {
       "id": "W1992115300",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 2.598116,
+      "y_topo": 17.849371,
+      "is_core": false
     },
     {
       "id": "W3000332379",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 2.5983348,
+      "y_topo": 17.852175,
+      "is_core": false
     },
     {
       "id": "W2148593155",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 11.467083,
+      "y_topo": 3.9558132,
+      "is_core": false
     },
     {
       "id": "W2129866760",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 0.6466639,
+      "y_topo": 3.4013445,
+      "is_core": false
     },
     {
       "id": "W2053776717",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 3.286957,
+      "y_topo": 9.45597,
+      "is_core": false
     },
     {
       "id": "W1965959308",
-      "citations": 0
+      "citations": 0,
+      "x_topo": -7.827657,
+      "y_topo": 13.813325,
+      "is_core": false
     },
     {
       "id": "W2089725657",
-      "citations": 0
+      "citations": 0,
+      "x_topo": -0.005402978,
+      "y_topo": 5.29343,
+      "is_core": false
     },
     {
       "id": "W2111953939",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 1.1996487,
+      "y_topo": 2.0914516,
+      "is_core": false
     },
     {
       "id": "W137024741",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 5.247371,
+      "y_topo": -10.411738,
+      "is_core": false
     },
     {
       "id": "W2200452635",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 10.700716,
+      "y_topo": 19.968367,
+      "is_core": false
     },
     {
       "id": "W1518632544",
-      "citations": 0
+      "citations": 0,
+      "x_topo": -5.7598386,
+      "y_topo": 6.9845424,
+      "is_core": false
     },
     {
       "id": "W3141802282",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 2.3764482,
+      "y_topo": 2.3713284,
+      "is_core": false
     },
     {
       "id": "W2031107171",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 1.4931567,
+      "y_topo": 3.9274976,
+      "is_core": false
     },
     {
       "id": "W2125638038",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 2.6023772,
+      "y_topo": 0.08899062,
+      "is_core": false
     },
     {
       "id": "W6743554255",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 14.521282,
+      "y_topo": 10.4023905,
+      "is_core": false
     },
     {
       "id": "W170788016",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 3.3235633,
+      "y_topo": 1.820571,
+      "is_core": false
     },
     {
       "id": "W1967310439",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 1.4618552,
+      "y_topo": 2.2883768,
+      "is_core": false
     },
     {
       "id": "W2023331673",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 13.676934,
+      "y_topo": 15.368661,
+      "is_core": false
     },
     {
       "id": "W2170846659",
-      "citations": 0
+      "citations": 0,
+      "x_topo": -2.1270037,
+      "y_topo": -6.6261644,
+      "is_core": false
     },
     {
       "id": "W6638408539",
-      "citations": 0
+      "citations": 0,
+      "x_topo": -0.8805733,
+      "y_topo": 7.487789,
+      "is_core": false
     },
     {
       "id": "W1996790570",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 1.2106951,
+      "y_topo": 2.0297062,
+      "is_core": false
     },
     {
       "id": "W2140508396",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 10.751805,
+      "y_topo": 19.982687,
+      "is_core": false
     },
     {
       "id": "W2068707318",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 7.892028,
+      "y_topo": -10.077349,
+      "is_core": false
     },
     {
       "id": "W2132984323",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 1.5233809,
+      "y_topo": 1.8437419,
+      "is_core": false
     },
     {
       "id": "W2010441417",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 3.565573,
+      "y_topo": 2.5962498,
+      "is_core": false
     },
     {
       "id": "W2134977872",
-      "citations": 0
+      "citations": 0,
+      "x_topo": -2.1610446,
+      "y_topo": -6.836542,
+      "is_core": false
     },
     {
       "id": "W1575184221",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 3.3225358,
+      "y_topo": 1.8169758,
+      "is_core": false
     },
     {
       "id": "W2039180386",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 0.9361402,
+      "y_topo": 2.2858677,
+      "is_core": false
     },
     {
       "id": "W2337655059",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 4.9292254,
+      "y_topo": 2.8737097,
+      "is_core": false
     },
     {
       "id": "W2148387916",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 15.6502695,
+      "y_topo": 5.1278524,
+      "is_core": false
     },
     {
       "id": "W2069303979",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 5.8202167,
+      "y_topo": 9.610981,
+      "is_core": false
     },
     {
       "id": "W2166314747",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 0.89736676,
+      "y_topo": 2.3235962,
+      "is_core": false
     },
     {
       "id": "W1987577832",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 10.146106,
+      "y_topo": 5.91065,
+      "is_core": false
     },
     {
       "id": "W2040903332",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 1.1252654,
+      "y_topo": 2.0745227,
+      "is_core": false
     },
     {
       "id": "W4230977899",
-      "citations": 0
+      "citations": 0,
+      "x_topo": -5.440856,
+      "y_topo": 9.498824,
+      "is_core": false
     },
     {
       "id": "W1787389487",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 15.667538,
+      "y_topo": 5.148161,
+      "is_core": false
     },
     {
       "id": "W2159285173",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 1.2105526,
+      "y_topo": 4.284839,
+      "is_core": false
     },
     {
       "id": "W2320228884",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 3.284354,
+      "y_topo": 0.8114388,
+      "is_core": false
     },
     {
       "id": "W1600100282",
-      "citations": 0
+      "citations": 0,
+      "x_topo": -4.05827,
+      "y_topo": -2.7915342,
+      "is_core": false
     },
     {
       "id": "W2070659770",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 3.4325888,
+      "y_topo": 2.2251198,
+      "is_core": false
     },
     {
       "id": "W4238966638",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 5.83913,
+      "y_topo": -6.868032,
+      "is_core": false
     },
     {
       "id": "W2138208291",
-      "citations": 0
+      "citations": 0,
+      "x_topo": -2.8844576,
+      "y_topo": 5.3896713,
+      "is_core": false
     },
     {
       "id": "W2146266947",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 2.6603487,
+      "y_topo": 17.785181,
+      "is_core": false
     },
     {
       "id": "W2158783235",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 1.1669878,
+      "y_topo": 2.0443053,
+      "is_core": false
     },
     {
       "id": "W1990621116",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 9.444257,
+      "y_topo": 5.668882,
+      "is_core": false
     },
     {
       "id": "W2911848417",
-      "citations": 0
+      "citations": 0,
+      "x_topo": -1.8432854,
+      "y_topo": -0.9118688,
+      "is_core": false
     },
     {
       "id": "W2000980965",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 2.8168173,
+      "y_topo": 2.8822992,
+      "is_core": false
     },
     {
       "id": "W6643834178",
-      "citations": 0
+      "citations": 0,
+      "x_topo": -3.3693922,
+      "y_topo": 2.2122254,
+      "is_core": false
     },
     {
       "id": "W2121712111",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 4.8822355,
+      "y_topo": 2.9007647,
+      "is_core": false
     },
     {
       "id": "W2168938315",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 11.468655,
+      "y_topo": 3.953613,
+      "is_core": false
     },
     {
       "id": "W39301296",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 3.1816509,
+      "y_topo": 2.7587903,
+      "is_core": false
     },
     {
       "id": "W2618814260",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 2.2361188,
+      "y_topo": 0.75796974,
+      "is_core": false
     },
     {
       "id": "W2336918561",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 3.3311746,
+      "y_topo": 3.0307481,
+      "is_core": false
     },
     {
       "id": "W2460683477",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 7.774285,
+      "y_topo": -10.193786,
+      "is_core": false
     },
     {
       "id": "W2073470731",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 2.5633447,
+      "y_topo": 0.14129245,
+      "is_core": false
     },
     {
       "id": "W2244686166",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 1.4231615,
+      "y_topo": 1.9433137,
+      "is_core": false
     },
     {
       "id": "W1993698005",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 4.082121,
+      "y_topo": -1.693868,
+      "is_core": false
     },
     {
       "id": "W2065343501",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 0.6292426,
+      "y_topo": 2.7930062,
+      "is_core": false
     },
     {
       "id": "W1968211101",
-      "citations": 0
+      "citations": 0,
+      "x_topo": -6.5868306,
+      "y_topo": 8.004546,
+      "is_core": false
     },
     {
       "id": "W2090702521",
-      "citations": 0
+      "citations": 0,
+      "x_topo": -1.9288573,
+      "y_topo": -0.9995505,
+      "is_core": false
     },
     {
       "id": "W1980259323",
-      "citations": 0
+      "citations": 0,
+      "x_topo": -2.875302,
+      "y_topo": 5.389431,
+      "is_core": false
     },
     {
       "id": "W2293779956",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 0.8266725,
+      "y_topo": 2.645525,
+      "is_core": false
     },
     {
       "id": "W2043758465",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 15.67296,
+      "y_topo": 5.1618357,
+      "is_core": false
     },
     {
       "id": "W2074797641",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 0.7775135,
+      "y_topo": 4.8142195,
+      "is_core": false
     },
     {
       "id": "W2326000224",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 10.74361,
+      "y_topo": 19.991846,
+      "is_core": false
     },
     {
       "id": "W3161635902",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 1.4704111,
+      "y_topo": 3.1042974,
+      "is_core": false
     },
     {
       "id": "W2146766088",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 2.6832054,
+      "y_topo": 17.763067,
+      "is_core": false
     },
     {
       "id": "W2165341004",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 1.8409787,
+      "y_topo": 2.7161012,
+      "is_core": false
     },
     {
       "id": "W2052523851",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 4.8346143,
+      "y_topo": -4.898918,
+      "is_core": false
     },
     {
       "id": "W2035608892",
-      "citations": 0
+      "citations": 0,
+      "x_topo": -1.3450525,
+      "y_topo": 14.935409,
+      "is_core": false
     },
     {
       "id": "W2133493855",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 2.0265963,
+      "y_topo": 1.7450471,
+      "is_core": false
     },
     {
       "id": "W1991686262",
-      "citations": 0
+      "citations": 0,
+      "x_topo": -6.7440205,
+      "y_topo": -0.7483775,
+      "is_core": false
     },
     {
       "id": "W2913719691",
-      "citations": 0
+      "citations": 0,
+      "x_topo": -4.092433,
+      "y_topo": -2.8295593,
+      "is_core": false
     },
     {
       "id": "W1982773511",
-      "citations": 0
+      "citations": 0,
+      "x_topo": -4.074158,
+      "y_topo": -2.8099825,
+      "is_core": false
     },
     {
       "id": "W1982883529",
-      "citations": 0
+      "citations": 0,
+      "x_topo": -3.1893597,
+      "y_topo": 10.072873,
+      "is_core": false
     },
     {
       "id": "W2796837256",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 2.9183643,
+      "y_topo": 0.8616755,
+      "is_core": false
     },
     {
       "id": "W2295355433",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 2.2341805,
+      "y_topo": 0.5633206,
+      "is_core": false
     },
     {
       "id": "W2003938193",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 0.20003785,
+      "y_topo": 3.5254807,
+      "is_core": false
     },
     {
       "id": "W137129775",
-      "citations": 0
+      "citations": 0,
+      "x_topo": -3.3559086,
+      "y_topo": 1.9576552,
+      "is_core": false
     },
     {
       "id": "W85028940",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 1.1700726,
+      "y_topo": 2.0196586,
+      "is_core": false
     },
     {
       "id": "W2015696135",
-      "citations": 0
+      "citations": 0,
+      "x_topo": -5.717999,
+      "y_topo": 11.292145,
+      "is_core": false
     },
     {
       "id": "W2071014748",
-      "citations": 0
+      "citations": 0,
+      "x_topo": -6.7347097,
+      "y_topo": -0.7247649,
+      "is_core": false
     },
     {
       "id": "W4231515897",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 0.732096,
+      "y_topo": 3.2097251,
+      "is_core": false
     },
     {
       "id": "W2098511623",
-      "citations": 0
+      "citations": 0,
+      "x_topo": -3.189143,
+      "y_topo": 10.075864,
+      "is_core": false
     },
     {
       "id": "W2030380460",
-      "citations": 0
+      "citations": 0,
+      "x_topo": -6.7242002,
+      "y_topo": -0.75881755,
+      "is_core": false
     },
     {
       "id": "W2114565167",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 3.2427924,
+      "y_topo": 2.5021617,
+      "is_core": false
     },
     {
       "id": "W2095956339",
-      "citations": 0
+      "citations": 0,
+      "x_topo": -3.437329,
+      "y_topo": 1.9999408,
+      "is_core": false
     },
     {
       "id": "W1995996166",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 4.379748,
+      "y_topo": 9.313598,
+      "is_core": false
     },
     {
       "id": "W4238957295",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 0.7332,
+      "y_topo": 3.2836332,
+      "is_core": false
     },
     {
       "id": "W2032030953",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 3.114322,
+      "y_topo": -0.065516144,
+      "is_core": false
     },
     {
       "id": "W6628248847",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 7.851334,
+      "y_topo": -10.116364,
+      "is_core": false
     },
     {
       "id": "W1967729954",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 1.1485908,
+      "y_topo": 5.4586086,
+      "is_core": false
     },
     {
       "id": "W1995875910",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 10.720725,
+      "y_topo": 19.969818,
+      "is_core": false
     },
     {
       "id": "W2120864013",
-      "citations": 0
+      "citations": 0,
+      "x_topo": -6.7327204,
+      "y_topo": -0.7411989,
+      "is_core": false
     },
     {
       "id": "W2104851574",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 16.2434,
+      "y_topo": -5.46766,
+      "is_core": false
     },
     {
       "id": "W6691139311",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 14.545937,
+      "y_topo": 10.388876,
+      "is_core": false
     },
     {
       "id": "W14982535",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 4.844459,
+      "y_topo": -4.888228,
+      "is_core": false
     },
     {
       "id": "W2999068457",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 2.4068565,
+      "y_topo": 0.6513258,
+      "is_core": false
     },
     {
       "id": "W2069537876",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 0.27564394,
+      "y_topo": 3.761331,
+      "is_core": false
     },
     {
       "id": "W2150500908",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 10.385643,
+      "y_topo": -0.64944595,
+      "is_core": false
     },
     {
       "id": "W2972748662",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 0.5635935,
+      "y_topo": 3.3582237,
+      "is_core": false
     },
     {
       "id": "W2023376119",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 3.6754887,
+      "y_topo": 17.564001,
+      "is_core": false
     },
     {
       "id": "W2006628473",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 7.880052,
+      "y_topo": -10.087806,
+      "is_core": false
     },
     {
       "id": "W2247485652",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 2.935511,
+      "y_topo": 0.7385467,
+      "is_core": false
     },
     {
       "id": "W1504298997",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 5.89049,
+      "y_topo": -6.805131,
+      "is_core": false
     },
     {
       "id": "W1988354174",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 15.760315,
+      "y_topo": -6.4760847,
+      "is_core": false
     },
     {
       "id": "W1410003225",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 7.9005795,
+      "y_topo": -10.067788,
+      "is_core": false
     },
     {
       "id": "W1990353576",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 14.150056,
+      "y_topo": 6.677075,
+      "is_core": false
     },
     {
       "id": "W4285719527",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 2.200102,
+      "y_topo": 0.58020985,
+      "is_core": false
     },
     {
       "id": "W1975328230",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 11.680455,
+      "y_topo": 6.4615626,
+      "is_core": false
     },
     {
       "id": "W1983893897",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 5.6996202,
+      "y_topo": 19.420527,
+      "is_core": false
     },
     {
       "id": "W1493815292",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 1.35899,
+      "y_topo": 3.8166878,
+      "is_core": false
     },
     {
       "id": "W2033319097",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 1.5208353,
+      "y_topo": 1.8666042,
+      "is_core": false
     },
     {
       "id": "W4243726110",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 9.523121,
+      "y_topo": 5.7359686,
+      "is_core": false
     },
     {
       "id": "W1974131585",
-      "citations": 0
+      "citations": 0,
+      "x_topo": -2.1314254,
+      "y_topo": -6.735502,
+      "is_core": false
     },
     {
       "id": "W2165608046",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 12.295077,
+      "y_topo": 6.54261,
+      "is_core": false
     },
     {
       "id": "W1978903766",
-      "citations": 0
+      "citations": 0,
+      "x_topo": -3.3974416,
+      "y_topo": 2.1987872,
+      "is_core": false
     },
     {
       "id": "W2610881169",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 2.0151803,
+      "y_topo": 0.9999983,
+      "is_core": false
     },
     {
       "id": "W200152786",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 9.087802,
+      "y_topo": 18.631563,
+      "is_core": false
     },
     {
       "id": "W3044733636",
-      "citations": 0
+      "citations": 0,
+      "x_topo": -1.3404392,
+      "y_topo": 14.928443,
+      "is_core": false
     },
     {
       "id": "W1496383623",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 0.90125245,
+      "y_topo": 5.1114287,
+      "is_core": false
     },
     {
       "id": "W2038515661",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 2.5894651,
+      "y_topo": 17.857935,
+      "is_core": false
     },
     {
       "id": "W2077014479",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 2.7750957,
+      "y_topo": -0.0003359951,
+      "is_core": false
     },
     {
       "id": "W2153112158",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 13.150995,
+      "y_topo": 5.412486,
+      "is_core": false
     },
     {
       "id": "W2158354032",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 3.1910493,
+      "y_topo": 0.528447,
+      "is_core": false
     },
     {
       "id": "W20188774",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 7.875814,
+      "y_topo": -10.095033,
+      "is_core": false
     },
     {
       "id": "W2046250219",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 1.7415636,
+      "y_topo": 3.3705168,
+      "is_core": false
     },
     {
       "id": "W1577680551",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 0.6684713,
+      "y_topo": 3.4412143,
+      "is_core": false
     },
     {
       "id": "W1982206188",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 12.290695,
+      "y_topo": -3.8180509,
+      "is_core": false
     },
     {
       "id": "W2095423145",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 4.1355476,
+      "y_topo": -1.6306311,
+      "is_core": false
     },
     {
       "id": "W1525850536",
-      "citations": 0
+      "citations": 0,
+      "x_topo": -6.748447,
+      "y_topo": -0.74700296,
+      "is_core": false
     },
     {
       "id": "W1487986144",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 3.6973104,
+      "y_topo": 17.591175,
+      "is_core": false
     },
     {
       "id": "W2083632529",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 1.9356414,
+      "y_topo": 2.62181,
+      "is_core": false
     },
     {
       "id": "W2078290150",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 1.7320175,
+      "y_topo": 1.3865029,
+      "is_core": false
     },
     {
       "id": "W1579842596",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 3.0814047,
+      "y_topo": 2.372446,
+      "is_core": false
     },
     {
       "id": "W2022266599",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 5.4447436,
+      "y_topo": 9.189552,
+      "is_core": false
     },
     {
       "id": "W1999616998",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 2.5879962,
+      "y_topo": 0.103617586,
+      "is_core": false
     },
     {
       "id": "W2158307450",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 2.685213,
+      "y_topo": 0.9034004,
+      "is_core": false
     },
     {
       "id": "W1982530240",
-      "citations": 0
+      "citations": 0,
+      "x_topo": -1.9065381,
+      "y_topo": -0.9349454,
+      "is_core": false
     },
     {
       "id": "W2138624212",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 1.2974361,
+      "y_topo": 1.9354923,
+      "is_core": false
     },
     {
       "id": "W2053690843",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 1.6183652,
+      "y_topo": 1.5789695,
+      "is_core": false
     },
     {
       "id": "W2294248264",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 0.7799164,
+      "y_topo": 4.623992,
+      "is_core": false
     },
     {
       "id": "W2030245101",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 1.3883837,
+      "y_topo": 2.0536573,
+      "is_core": false
     },
     {
       "id": "W1980084716",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 5.902654,
+      "y_topo": -6.806761,
+      "is_core": false
     },
     {
       "id": "W2021411659",
-      "citations": 0
+      "citations": 0,
+      "x_topo": -6.7414293,
+      "y_topo": -0.7441053,
+      "is_core": false
     },
     {
       "id": "W2112278606",
-      "citations": 0
+      "citations": 0,
+      "x_topo": -3.496172,
+      "y_topo": 2.193136,
+      "is_core": false
     },
     {
       "id": "W2000004101",
-      "citations": 0
+      "citations": 0,
+      "x_topo": -1.313991,
+      "y_topo": 14.985873,
+      "is_core": false
     },
     {
       "id": "W2030175360",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 0.42489755,
+      "y_topo": 3.6097233,
+      "is_core": false
     },
     {
       "id": "W2085481073",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 6.35292,
+      "y_topo": 21.102926,
+      "is_core": false
     },
     {
       "id": "W2096482875",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 0.5747301,
+      "y_topo": 3.4122467,
+      "is_core": false
     },
     {
       "id": "W2135643110",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 3.1610951,
+      "y_topo": 8.74919,
+      "is_core": false
     },
     {
       "id": "W2751191496",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 14.535311,
+      "y_topo": 10.379852,
+      "is_core": false
     },
     {
       "id": "W2052052234",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 15.658875,
+      "y_topo": 5.14162,
+      "is_core": false
     },
     {
       "id": "W2070691958",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 5.249604,
+      "y_topo": -10.429145,
+      "is_core": false
     },
     {
       "id": "W1974223339",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 0.87098354,
+      "y_topo": 1.1050552,
+      "is_core": false
     },
     {
       "id": "W2111041418",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 0.84311074,
+      "y_topo": 4.455575,
+      "is_core": false
     },
     {
       "id": "W3004285125",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 13.297744,
+      "y_topo": 7.550568,
+      "is_core": false
     },
     {
       "id": "W2081155444",
-      "citations": 0
+      "citations": 0,
+      "x_topo": -8.65335,
+      "y_topo": 5.6576767,
+      "is_core": false
     },
     {
       "id": "W2034611273",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 13.601438,
+      "y_topo": 6.547261,
+      "is_core": false
     },
     {
       "id": "W2059116251",
-      "citations": 0
+      "citations": 0,
+      "x_topo": -5.8489885,
+      "y_topo": 7.097518,
+      "is_core": false
     },
     {
       "id": "W2124262094",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 1.5317729,
+      "y_topo": 1.8520799,
+      "is_core": false
     },
     {
       "id": "W2294130413",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 2.6387248,
+      "y_topo": 0.957646,
+      "is_core": false
     },
     {
       "id": "W4247239698",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 2.5975397,
+      "y_topo": 17.847692,
+      "is_core": false
     },
     {
       "id": "W2034070517",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 2.7125952,
+      "y_topo": 0.031984866,
+      "is_core": false
     },
     {
       "id": "W1536003180",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 7.898949,
+      "y_topo": -10.071499,
+      "is_core": false
     },
     {
       "id": "W2026082049",
-      "citations": 0
+      "citations": 0,
+      "x_topo": -2.3301213,
+      "y_topo": -6.723789,
+      "is_core": false
     },
     {
       "id": "W1981674427",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 16.165445,
+      "y_topo": 15.845967,
+      "is_core": false
     },
     {
       "id": "W2074589841",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 2.871963,
+      "y_topo": 0.010197351,
+      "is_core": false
     },
     {
       "id": "W1964674052",
-      "citations": 0
+      "citations": 0,
+      "x_topo": -0.005476179,
+      "y_topo": 3.9656038,
+      "is_core": false
     },
     {
       "id": "W1969594658",
-      "citations": 0
+      "citations": 0,
+      "x_topo": -2.0912375,
+      "y_topo": -6.717398,
+      "is_core": false
     },
     {
       "id": "W6610181731",
-      "citations": 0
+      "citations": 0,
+      "x_topo": -1.9804535,
+      "y_topo": -1.0218816,
+      "is_core": false
     },
     {
       "id": "W4229863912",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 3.021342,
+      "y_topo": 3.2726002,
+      "is_core": false
     },
     {
       "id": "W2121203842",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 2.7309716,
+      "y_topo": 17.718445,
+      "is_core": false
     },
     {
       "id": "W2071848270",
-      "citations": 0
+      "citations": 0,
+      "x_topo": -7.8306613,
+      "y_topo": 13.81496,
+      "is_core": false
     },
     {
       "id": "W2145721047",
-      "citations": 0
+      "citations": 0,
+      "x_topo": -1.3278428,
+      "y_topo": 14.969098,
+      "is_core": false
     },
     {
       "id": "W2119818356",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 15.617873,
+      "y_topo": 5.0924706,
+      "is_core": false
     },
     {
       "id": "W4385490081",
-      "citations": 0
+      "citations": 0,
+      "x_topo": -0.8229442,
+      "y_topo": 15.805039,
+      "is_core": false
     },
     {
       "id": "W2130576503",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 1.7194684,
+      "y_topo": 1.4065417,
+      "is_core": false
     },
     {
       "id": "W2163422381",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 3.125067,
+      "y_topo": 1.1971577,
+      "is_core": false
     },
     {
       "id": "W2157042656",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 9.127868,
+      "y_topo": 18.619396,
+      "is_core": false
     },
     {
       "id": "W2095998513",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 0.040836804,
+      "y_topo": 5.546733,
+      "is_core": false
     },
     {
       "id": "W6663989941",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 2.2540839,
+      "y_topo": 4.862356,
+      "is_core": false
     },
     {
       "id": "W2156343066",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 2.16203,
+      "y_topo": 0.68328804,
+      "is_core": false
     },
     {
       "id": "W2142814366",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 3.0715182,
+      "y_topo": 1.0796273,
+      "is_core": false
     },
     {
       "id": "W2048365988",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 10.740453,
+      "y_topo": 19.984303,
+      "is_core": false
     },
     {
       "id": "W2041138652",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 1.4456574,
+      "y_topo": 3.9227893,
+      "is_core": false
     },
     {
       "id": "W1977574397",
-      "citations": 0
+      "citations": 0,
+      "x_topo": -2.1088777,
+      "y_topo": -6.609593,
+      "is_core": false
     },
     {
       "id": "W6608567944",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 9.10523,
+      "y_topo": 18.608425,
+      "is_core": false
     },
     {
       "id": "W2098778058",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 7.8230968,
+      "y_topo": -10.142642,
+      "is_core": false
     },
     {
       "id": "W2170120409",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 1.8757809,
+      "y_topo": 1.3549336,
+      "is_core": false
     },
     {
       "id": "W174852983",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 15.670869,
+      "y_topo": 5.15769,
+      "is_core": false
     },
     {
       "id": "W1976087569",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 1.2430611,
+      "y_topo": 2.028295,
+      "is_core": false
     },
     {
       "id": "W1985456242",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 0.11590965,
+      "y_topo": 3.5767093,
+      "is_core": false
     },
     {
       "id": "W1982661771",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 0.5206722,
+      "y_topo": 3.209273,
+      "is_core": false
     },
     {
       "id": "W1994406579",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 0.9318032,
+      "y_topo": 2.313496,
+      "is_core": false
     },
     {
       "id": "W6667954927",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 5.234771,
+      "y_topo": -10.409598,
+      "is_core": false
     },
     {
       "id": "W2076913963",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 5.9016247,
+      "y_topo": -6.797386,
+      "is_core": false
     },
     {
       "id": "W4237072707",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 15.65129,
+      "y_topo": 5.1337585,
+      "is_core": false
     },
     {
       "id": "W1520705314",
-      "citations": 0
+      "citations": 0,
+      "x_topo": -1.7944076,
+      "y_topo": -0.9120847,
+      "is_core": false
     },
     {
       "id": "W2147913323",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 3.1244485,
+      "y_topo": 0.1406747,
+      "is_core": false
     },
     {
       "id": "W1753524162",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 1.9080302,
+      "y_topo": 1.243399,
+      "is_core": false
     },
     {
       "id": "W1994225593",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 2.662716,
+      "y_topo": 17.789537,
+      "is_core": false
     },
     {
       "id": "W2070766302",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 0.13599323,
+      "y_topo": 3.5445895,
+      "is_core": false
     },
     {
       "id": "W2147846431",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 1.9062642,
+      "y_topo": 1.1759244,
+      "is_core": false
     },
     {
       "id": "W180967765",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 18.597656,
+      "y_topo": 1.0522655,
+      "is_core": false
     },
     {
       "id": "W2001104618",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 3.4625518,
+      "y_topo": 20.391373,
+      "is_core": false
     },
     {
       "id": "W382830243",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 14.565269,
+      "y_topo": 10.3408165,
+      "is_core": false
     },
     {
       "id": "W2913772345",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 1.5490532,
+      "y_topo": 1.6385729,
+      "is_core": false
     },
     {
       "id": "W2069356479",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 5.2264237,
+      "y_topo": -10.387936,
+      "is_core": false
     },
     {
       "id": "W1974571535",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 7.0595107,
+      "y_topo": 4.7308545,
+      "is_core": false
     },
     {
       "id": "W1966057848",
-      "citations": 0
+      "citations": 0,
+      "x_topo": -3.1772752,
+      "y_topo": 1.9343761,
+      "is_core": false
     },
     {
       "id": "W2078206416",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 0.08641062,
+      "y_topo": 5.605008,
+      "is_core": false
     },
     {
       "id": "W2984590010",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 7.8126063,
+      "y_topo": -10.154415,
+      "is_core": false
     },
     {
       "id": "W2020171867",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 6.7375736,
+      "y_topo": -1.5406693,
+      "is_core": false
     },
     {
       "id": "W2030108641",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 5.2508016,
+      "y_topo": -10.418982,
+      "is_core": false
     },
     {
       "id": "W2053482006",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 7.899649,
+      "y_topo": -10.071282,
+      "is_core": false
     },
     {
       "id": "W2000980110",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 9.11233,
+      "y_topo": 18.606487,
+      "is_core": false
     },
     {
       "id": "W1980141156",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 15.705308,
+      "y_topo": 5.18211,
+      "is_core": false
     },
     {
       "id": "W2005314985",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 0.5084441,
+      "y_topo": 3.7300413,
+      "is_core": false
     },
     {
       "id": "W1979460674",
-      "citations": 0
+      "citations": 0,
+      "x_topo": -5.849881,
+      "y_topo": 7.097949,
+      "is_core": false
     },
     {
       "id": "W95046032",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 7.8223157,
+      "y_topo": -10.148012,
+      "is_core": false
     },
     {
       "id": "W2155859954",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 9.059598,
+      "y_topo": 18.589155,
+      "is_core": false
     },
     {
       "id": "W2067368068",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 3.159833,
+      "y_topo": 2.4978435,
+      "is_core": false
     },
     {
       "id": "W2166365634",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 13.4944315,
+      "y_topo": 5.0243673,
+      "is_core": false
     },
     {
       "id": "W129658455",
-      "citations": 0
+      "citations": 0,
+      "x_topo": -3.2204292,
+      "y_topo": 1.9576058,
+      "is_core": false
     },
     {
       "id": "W1989952968",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 1.8676301,
+      "y_topo": 2.6934679,
+      "is_core": false
     },
     {
       "id": "W172846925",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 1.6876775,
+      "y_topo": 3.7043731,
+      "is_core": false
     },
     {
       "id": "W2074065591",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 0.64311475,
+      "y_topo": 2.7545683,
+      "is_core": false
     },
     {
       "id": "W2753542457",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 3.365625,
+      "y_topo": -3.8714707,
+      "is_core": false
     },
     {
       "id": "W2080357398",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 5.7952504,
+      "y_topo": -6.920441,
+      "is_core": false
     },
     {
       "id": "W4250599706",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 5.9115176,
+      "y_topo": -6.7634087,
+      "is_core": false
     },
     {
       "id": "W1991859109",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 3.1115665,
+      "y_topo": 1.129639,
+      "is_core": false
     },
     {
       "id": "W1984170887",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 2.5897682,
+      "y_topo": 17.86273,
+      "is_core": false
     },
     {
       "id": "W1609411230",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 19.929777,
+      "y_topo": -3.8272233,
+      "is_core": false
     },
     {
       "id": "W2030503807",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 2.9756272,
+      "y_topo": 1.164087,
+      "is_core": false
     },
     {
       "id": "W2070921605",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 0.54790103,
+      "y_topo": 4.262711,
+      "is_core": false
     },
     {
       "id": "W2003675299",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 7.784741,
+      "y_topo": -10.180803,
+      "is_core": false
     },
     {
       "id": "W4239974699",
-      "citations": 0
+      "citations": 0,
+      "x_topo": -0.25868958,
+      "y_topo": 5.5194016,
+      "is_core": false
     },
     {
       "id": "W2414852751",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 2.674889,
+      "y_topo": 17.771484,
+      "is_core": false
     },
     {
       "id": "W1985266065",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 7.007296,
+      "y_topo": -12.126698,
+      "is_core": false
     },
     {
       "id": "W1997024852",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 10.758662,
+      "y_topo": 20.017267,
+      "is_core": false
     },
     {
       "id": "W2122509273",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 18.583672,
+      "y_topo": 1.054332,
+      "is_core": false
     },
     {
       "id": "W1489539431",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 1.0916647,
+      "y_topo": 2.159348,
+      "is_core": false
     },
     {
       "id": "W2159123814",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 14.537976,
+      "y_topo": 10.37559,
+      "is_core": false
     },
     {
       "id": "W1600329259",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 2.2655761,
+      "y_topo": 2.3717864,
+      "is_core": false
     },
     {
       "id": "W2064751934",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 0.9735894,
+      "y_topo": 2.4292295,
+      "is_core": false
     },
     {
       "id": "W2127983067",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 0.87070376,
+      "y_topo": 3.4340582,
+      "is_core": false
     },
     {
       "id": "W2172280673",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 3.1025257,
+      "y_topo": 0.40474984,
+      "is_core": false
     },
     {
       "id": "W2114709034",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 1.7662734,
+      "y_topo": 2.5736887,
+      "is_core": false
     },
     {
       "id": "W2070097502",
-      "citations": 0
+      "citations": 0,
+      "x_topo": -3.206341,
+      "y_topo": 1.942922,
+      "is_core": false
     },
     {
       "id": "W1560070119",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 3.3210328,
+      "y_topo": 1.8142458,
+      "is_core": false
     },
     {
       "id": "W2506668433",
-      "citations": 0
+      "citations": 0,
+      "x_topo": -1.4012102,
+      "y_topo": 14.866106,
+      "is_core": false
     },
     {
       "id": "W1529542750",
-      "citations": 0
+      "citations": 0,
+      "x_topo": -2.4170947,
+      "y_topo": -6.660261,
+      "is_core": false
     },
     {
       "id": "W2079638262",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 1.7226541,
+      "y_topo": 1.3978953,
+      "is_core": false
     },
     {
       "id": "W1607071030",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 3.5002902,
+      "y_topo": 2.5898414,
+      "is_core": false
     },
     {
       "id": "W1971064249",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 3.3554509,
+      "y_topo": -3.9000325,
+      "is_core": false
     },
     {
       "id": "W1490340188",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 2.9889455,
+      "y_topo": 0.197108,
+      "is_core": false
     },
     {
       "id": "W1532469653",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 1.8589785,
+      "y_topo": 1.3370764,
+      "is_core": false
     },
     {
       "id": "W2156067784",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 11.540576,
+      "y_topo": 6.426771,
+      "is_core": false
     },
     {
       "id": "W1490482062",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 2.0427647,
+      "y_topo": 0.91065055,
+      "is_core": false
     },
     {
       "id": "W2997387466",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 1.8819839,
+      "y_topo": 1.3329705,
+      "is_core": false
     },
     {
       "id": "W2062267302",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 3.288436,
+      "y_topo": 0.4845468,
+      "is_core": false
     },
     {
       "id": "W2082612735",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 1.3833754,
+      "y_topo": 2.1105893,
+      "is_core": false
     },
     {
       "id": "W4238805403",
-      "citations": 0
+      "citations": 0,
+      "x_topo": -1.8560638,
+      "y_topo": -0.9230733,
+      "is_core": false
     },
     {
       "id": "W2102100644",
-      "citations": 0
+      "citations": 0,
+      "x_topo": -1.3699683,
+      "y_topo": 14.986241,
+      "is_core": false
     },
     {
       "id": "W2246686646",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 14.552177,
+      "y_topo": 10.350966,
+      "is_core": false
     },
     {
       "id": "W6687750413",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 10.73917,
+      "y_topo": 19.985106,
+      "is_core": false
     },
     {
       "id": "W4236365977",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 2.512049,
+      "y_topo": 3.1491914,
+      "is_core": false
     },
     {
       "id": "W2046911213",
-      "citations": 0
+      "citations": 0,
+      "x_topo": -1.2582567,
+      "y_topo": 5.386758,
+      "is_core": false
     },
     {
       "id": "W1970352604",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 4.734656,
+      "y_topo": -7.3749423,
+      "is_core": false
     },
     {
       "id": "W2049584247",
-      "citations": 0
+      "citations": 0,
+      "x_topo": -5.7088213,
+      "y_topo": 11.297859,
+      "is_core": false
     },
     {
       "id": "W4233857083",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 2.2098825,
+      "y_topo": 0.5657765,
+      "is_core": false
     },
     {
       "id": "W959653777",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 3.2052057,
+      "y_topo": 1.5710838,
+      "is_core": false
     },
     {
       "id": "W4240744150",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 15.123004,
+      "y_topo": 16.335634,
+      "is_core": false
     },
     {
       "id": "W1594368792",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 3.3248072,
+      "y_topo": 1.8199803,
+      "is_core": false
     },
     {
       "id": "W4242150459",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 10.106919,
+      "y_topo": 5.387177,
+      "is_core": false
     },
     {
       "id": "W2146945987",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 1.2308613,
+      "y_topo": 1.9912426,
+      "is_core": false
     },
     {
       "id": "W2171163714",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 2.7639768,
+      "y_topo": 0.052684147,
+      "is_core": false
     },
     {
       "id": "W1618033869",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 10.736038,
+      "y_topo": 19.974197,
+      "is_core": false
     },
     {
       "id": "W1573137254",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 3.098022,
+      "y_topo": 0.09502205,
+      "is_core": false
     },
     {
       "id": "W2026630875",
-      "citations": 0
+      "citations": 0,
+      "x_topo": -7.8490777,
+      "y_topo": 13.834118,
+      "is_core": false
     },
     {
       "id": "W2161562143",
-      "citations": 0
+      "citations": 0,
+      "x_topo": -1.2845411,
+      "y_topo": 14.871136,
+      "is_core": false
     },
     {
       "id": "W1988494045",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 2.857369,
+      "y_topo": 2.557991,
+      "is_core": false
     },
     {
       "id": "W2108684644",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 2.8319225,
+      "y_topo": 0.22513841,
+      "is_core": false
     },
     {
       "id": "W176031958",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 7.7711596,
+      "y_topo": -10.193662,
+      "is_core": false
     },
     {
       "id": "W2151297804",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 5.2157116,
+      "y_topo": -10.338031,
+      "is_core": false
     },
     {
       "id": "W131394658",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 1.4459548,
+      "y_topo": 1.7317467,
+      "is_core": false
     },
     {
       "id": "W2150874632",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 1.9159424,
+      "y_topo": 1.1742319,
+      "is_core": false
     },
     {
       "id": "W1937873146",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 10.128795,
+      "y_topo": 5.8979383,
+      "is_core": false
     },
     {
       "id": "W2089884964",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 7.7916317,
+      "y_topo": -10.195328,
+      "is_core": false
     },
     {
       "id": "W1516027685",
-      "citations": 0
+      "citations": 0,
+      "x_topo": -2.2392232,
+      "y_topo": -6.7709727,
+      "is_core": false
     },
     {
       "id": "W2013043746",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 3.1482885,
+      "y_topo": 0.749704,
+      "is_core": false
     },
     {
       "id": "W4211265583",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 0.68936753,
+      "y_topo": -2.3010607,
+      "is_core": false
     },
     {
       "id": "W1555915743",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 0.70708525,
+      "y_topo": 4.2997065,
+      "is_core": false
     },
     {
       "id": "W1995033727",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 13.614123,
+      "y_topo": 4.782428,
+      "is_core": false
     },
     {
       "id": "W4249350480",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 2.655927,
+      "y_topo": 17.78805,
+      "is_core": false
     },
     {
       "id": "W2031165479",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 2.7804375,
+      "y_topo": -0.02502732,
+      "is_core": false
     },
     {
       "id": "W2005538657",
-      "citations": 0
+      "citations": 0,
+      "x_topo": -5.5692015,
+      "y_topo": 11.436662,
+      "is_core": false
     },
     {
       "id": "W2157861311",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 13.316349,
+      "y_topo": 5.2601557,
+      "is_core": false
     },
     {
       "id": "W2169528473",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 0.92886436,
+      "y_topo": 2.445075,
+      "is_core": false
     },
     {
       "id": "W2568368152",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 4.629692,
+      "y_topo": -7.2904882,
+      "is_core": false
     },
     {
       "id": "W2098588961",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 9.998751,
+      "y_topo": 10.38266,
+      "is_core": false
     },
     {
       "id": "W2997712422",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 9.998085,
+      "y_topo": 10.381926,
+      "is_core": false
     },
     {
       "id": "W35026418",
-      "citations": 0
+      "citations": 0,
+      "x_topo": -6.770934,
+      "y_topo": -0.7635839,
+      "is_core": false
     },
     {
       "id": "W4244039608",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 0.6884614,
+      "y_topo": -2.3015032,
+      "is_core": false
     },
     {
       "id": "W4232465159",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 1.946825,
+      "y_topo": 4.4243116,
+      "is_core": false
     },
     {
       "id": "W1715800926",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 3.6875527,
+      "y_topo": 1.8696043,
+      "is_core": false
     },
     {
       "id": "W2140415400",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 2.1911738,
+      "y_topo": 0.60151505,
+      "is_core": false
     },
     {
       "id": "W2064414926",
-      "citations": 0
+      "citations": 0,
+      "x_topo": -5.468159,
+      "y_topo": 9.492175,
+      "is_core": false
     },
     {
       "id": "W2013923435",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 10.6941185,
+      "y_topo": 19.953154,
+      "is_core": false
     },
     {
       "id": "W1996974848",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 3.2784748,
+      "y_topo": 2.0938048,
+      "is_core": false
     },
     {
       "id": "W2034694694",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 2.1354082,
+      "y_topo": 0.6847635,
+      "is_core": false
     },
     {
       "id": "W2079341603",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 10.126817,
+      "y_topo": 5.892698,
+      "is_core": false
     },
     {
       "id": "W1535517383",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 1.5397561,
+      "y_topo": 1.7665311,
+      "is_core": false
     },
     {
       "id": "W1987278426",
-      "citations": 0
+      "citations": 0,
+      "x_topo": 2.062564,
+      "y_topo": 2.5503721,
+      "is_core": false
     }
   ],
   "links": [

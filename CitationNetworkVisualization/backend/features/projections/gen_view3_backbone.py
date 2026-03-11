@@ -28,7 +28,7 @@ def main():
     core_df['x_backbone'] = embedding[:, 0]
     core_df['y_backbone'] = embedding[:, 1]
 
-    core_df[['node_id', 'x_backbone', 'y_backbone']].to_csv(OUT_PATH, index=False)
+    core_df[['id', 'x_backbone', 'y_backbone']].to_csv(OUT_PATH, index=False)
     print("✨ 视图 3 骨架坐标已生成。 保存到:", OUT_PATH)
 
 if __name__ == '__main__':

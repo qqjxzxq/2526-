@@ -1,16 +1,51 @@
 <!DOCTYPE html>
-<html>
+<html lang="zh-CN">
 <head>
   <meta charset="utf-8">
-  <title>Citation Network</title>
+  <title>知识演化可视分析系统 - CitationNetwork</title>
   <link rel="stylesheet" href="style.css">
   <script src="https://d3js.org/d3.v7.min.js"></script>
+  <style>
+    /* 简单的内联样式，确保工具栏可见 */
+    body { margin: 0; font-family: sans-serif; overflow: hidden; background: #1a1a1a; color: white; }
+    #toolbar {
+      position: absolute;
+      top: 20px;
+      left: 20px;
+      z-index: 100;
+      background: rgba(40, 40, 40, 0.8);
+      padding: 15px;
+      border-radius: 8px;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.5);
+    }
+    .btn-group { margin-top: 10px; display: flex; gap: 5px; }
+    button {
+      background: #444; color: #fff; border: none; padding: 6px 12px;
+      border-radius: 4px; cursor: pointer; transition: 0.3s;
+    }
+    button:hover { background: #666; }
+    button.active { background: #007bff; }
+    select { background: #333; color: white; border: 1px solid #555; padding: 4px; }
+  </style>
 </head>
 <body>
 
 <div id="toolbar">
-  <label>Select Year:</label>
-  <select id="yearSelect"></select>
+  <div>
+    <label>📅 时间轴：</label>
+    <select id="yearSelect">
+      </select>
+  </div>
+  
+  <div class="btn-group">
+    <button onclick="switchView('force')" id="btn-force" class="active">力导向</button>
+    <button onclick="switchView('topo')" id="btn-topo">纯拓扑</button>
+    <button onclick="switchView('hybrid')" id="btn-hybrid">知识演化</button>
+</div>
+  
+  <div style="margin-top: 10px; font-size: 12px; color: #aaa;">
+    * 滚轮缩放，拖拽平移
+  </div>
 </div>
 
 <div id="chart"></div>
