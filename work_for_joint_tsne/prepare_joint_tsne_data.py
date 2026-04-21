@@ -76,4 +76,4 @@ def prepare_data(year_t1, year_t2):
     print(f"✨ 准备就绪！请将 {folder_name} 内的文件放入 Joint_tsne/data/ 下")
 
 if __name__ == "__main__":
-    prepare_data(2020, 2024)
+    prepare_data(2010, 2020)

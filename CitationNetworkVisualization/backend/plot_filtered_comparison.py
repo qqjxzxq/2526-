@@ -5,7 +5,7 @@ import os
 
 # --- 路径配置 ---
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-COORDS_DIR = os.path.join(BASE_DIR, 'features/projections/joint_output')
+COORDS_DIR = os.path.join(BASE_DIR, 'features/projections/joint_output/2010_2020')
 
 def plot_filtered_2x2(year_t1, year_t2):
     print(f"🚀 正在绘制过滤后的对比图 ({year_t1} vs {year_t2})...")
@@ -60,10 +60,11 @@ def plot_filtered_2x2(year_t1, year_t2):
         ax.set_axis_off()
 
     plt.tight_layout()
-    output_path = os.path.join(BASE_DIR, "Filtered_Joint_TSNE_2x2.png")
+    file_name = f"Filtered_Joint_TSNE_{year_t1}_{year_t2}.png"
+    output_path = os.path.join(BASE_DIR, file_name)
     plt.savefig(output_path, dpi=300)
     print(f"✨ 过滤后的对比图已保存至: {output_path}")
     plt.show()
 
 if __name__ == "__main__":
-    plot_filtered_2x2(2020, 2024)
+    plot_filtered_2x2(2010, 2020)
