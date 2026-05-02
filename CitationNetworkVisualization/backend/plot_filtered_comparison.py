@@ -19,7 +19,7 @@ cmap_2020 = LinearSegmentedColormap.from_list("nature_cyan", [C_BG, C_T2_EDGE, C
 
 # --- 路径配置 ---
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-COORDS_DIR = os.path.join(BASE_DIR, 'features/projections/joint_output/2010_2020')
+COORDS_DIR = os.path.join(BASE_DIR, 'features/projections/joint_output/2020_2024')
 EDGES_DIR = os.path.join(BASE_DIR, 'yearly_networks')
 
 def plot_nature_white_style(year_t1, year_t2):
@@ -84,4 +84,4 @@ def plot_nature_white_style(year_t1, year_t2):
     plt.show()
 
 if __name__ == "__main__":
-    plot_nature_white_style(2010, 2020)
+    plot_nature_white_style(2020, 2024)
