@@ -3,104 +3,119 @@ from dash import dcc, html, Input, Output, State
 import pandas as pd
 import os
 
-# 初始化 Dash
-app = dash.Dash(
-    __name__,
-    external_scripts=[
-        'https://d3js.org/d3.v7.min.js',
-        'https://d3js.org/d3-contour.v4.min.js'
-    ]
-)
-
+# 初始化 Dash (注意：已移除 external_scripts，因为我们现在使用 assets 本地加载)
+app = dash.Dash(__name__)
 
 # --- 路径配置 ---
-# 确保这些路径与你的目录结构一致
 YEARLY_NETWORKS_DIR = "./yearly_networks/"
 LOW_DATA_DIR = "./tsne_data/low_data/"
 
 app.layout = html.Div([
-    html.H2("论文引用网络动态演化系统", style={'textAlign': 'center', 'marginBottom': '20px'}),
+    html.H2("论文引用网络动态对比系统 (任意双年对比)", style={'textAlign': 'center', 'marginBottom': '20px'}),
     
-    # 控制面板
+    # 控制面板：两个独立的年份选择器
     html.Div([
-        html.Label("选择演化年份:", style={'fontWeight': 'bold'}),
-        dcc.Slider(
-            id='year-slider',
-            min=1990,
-            max=2025,
-            step=1,
-            value=1990,
-            marks={i: str(i) for i in range(1990, 2026, 5)},
-            # 使用 drag 模式可以实时平滑滑动，mouseup 模式则释放后才更新
-            updatemode='drag' 
-        ),
-        html.Div(id='status-info', style={'color': '#666', 'marginTop': '10px'})
-    ], style={'width': '90%', 'margin': '0 auto', 'padding': '20px'}),
+        html.Div([
+            html.Label("选择基准年份 (左侧):", style={'fontWeight': 'bold'}),
+            dcc.Dropdown(
+                id='year-left-select',
+                options=[{'label': str(i), 'value': i} for i in range(1990, 2026)],
+                value=2020,
+                clearable=False
+            ),
+        ], style={'width': '45%', 'display': 'inline-block', 'marginRight': '5%'}),
+        
+        html.Div([
+            html.Label("选择对比年份 (右侧):", style={'fontWeight': 'bold'}),
+            dcc.Dropdown(
+                id='year-right-select',
+                options=[{'label': str(i), 'value': i} for i in range(1990, 2026)],
+                value=2024,
+                clearable=False
+            ),
+        ], style={'width': '45%', 'display': 'inline-block'}),
+        
+        html.Div(id='status-info', style={'color': '#666', 'marginTop': '15px', 'textAlign': 'center'})
+    ], style={'width': '90%', 'margin': '0 auto', 'padding': '20px', 'backgroundColor': '#fff', 'borderRadius': '10px'}),
 
-    # D3 绘图容器
+    # D3 绘图容器 (高度增加到 900px 以适应上下两排)
     html.Div(id='d3-viz-container', style={
-        'height': '800px', 
+        'height': '950px', 
         'margin': '20px', 
-        'border': '1px solid #ccc', 
+        'border': '1px solid #eee', 
         'borderRadius': '10px',
-        'backgroundColor': '#f9f9f9'
+        'backgroundColor': '#ffffff'
     }),
     
-    # 存储网络数据
+    # 存储对比数据
     dcc.Store(id='net-data-store')
-])
+], style={'backgroundColor': '#f4f7f6', 'minHeight': '100vh'})
 
-# --- 服务端回调：读取预计算数据 ---
+# --- 服务端逻辑：读取选中的两个年份数据 ---
+def get_single_year_data(selected_year):
+    node_path = os.path.join(YEARLY_NETWORKS_DIR, f"nodes_{selected_year}.csv")
+    edge_path = os.path.join(YEARLY_NETWORKS_DIR, f"edges_{selected_year}.csv")
+    low_data_path = os.path.join(LOW_DATA_DIR, f"low_data_{selected_year}.csv")
+    
+    if not all(os.path.exists(p) for p in [node_path, edge_path, low_data_path]):
+        return None
+
+    nodes = pd.read_csv(node_path)
+    edges = pd.read_csv(edge_path)
+    coords = pd.read_csv(low_data_path)
+    
+    nodes['x'] = coords['x_tsne']
+    nodes['y'] = coords['y_tsne']
+    
+    # 1. 节点过滤 (防止 nodes_2020.csv 里意外混入了晚于 2020 的数据)
+    if 'year' in nodes.columns:
+        nodes = nodes[nodes['year'] <= selected_year].copy()
+    
+    # 2. 边过滤 (核心步骤：确保所有引用的“终点”和“起点”在当年都已存在)
+    # 获取当前年份合法的节点 ID 集合
+    valid_ids = set(nodes['id'].astype(str))
+    
+    # 强制转换 ID 为字符串类型进行匹配
+    edges['source'] = edges['source'].astype(str)
+    edges['target'] = edges['target'].astype(str)
+    
+    # 只有当 source 和 target 都在 valid_ids 里的边才会被保留
+    # 这能彻底消除“引用未来”或者“孤点连线”的异常
+    mask = edges['source'].isin(valid_ids) & edges['target'].isin(valid_ids)
+    filtered_edges = edges[mask].copy()
+    
+    return {
+        "nodes": nodes.to_dict('records'),
+        "links": edges.to_dict('records'),
+        "year": selected_year
+    }
+
 @app.callback(
     [Output('net-data-store', 'data'),
      Output('status-info', 'children')],
-    Input('year-slider', 'value')
+    [Input('year-left-select', 'value'),
+     Input('year-right-select', 'value')]
 )
+def update_compare_data(y_left, y_right):
+    data_left = get_single_year_data(y_left)
+    data_right = get_single_year_data(y_right)
+    
+    if data_left is None or data_right is None:
+        return dash.no_update, "⚠️ 部分年份数据加载失败，请检查路径。"
+    
+    payload = {
+        "left": data_left,
+        "right": data_right
+    }
+    return payload, f"✅ 对比视图：{y_left} vs {y_right} 加载成功"
 
-def load_yearly_data(selected_year):
-    try:
-        # 1. 拼接文件路径
-        node_path = os.path.join(YEARLY_NETWORKS_DIR, f"nodes_{selected_year}.csv")
-        edge_path = os.path.join(YEARLY_NETWORKS_DIR, f"edges_{selected_year}.csv")
-        low_data_path = os.path.join(LOW_DATA_DIR, f"low_data_{selected_year}.csv")
-        
-        # 2. 检查文件是否存在
-        if not all(os.path.exists(p) for p in [node_path, edge_path, low_data_path]):
-            return dash.no_update, f"⚠️ 数据不完整：请检查 {selected_year} 年的 CSV 和 low_data 文件"
-
-        # 3. 读取数据
-        nodes = pd.read_csv(node_path)
-        edges = pd.read_csv(edge_path)
-        coords = pd.read_csv(low_data_path)
-
-        # 4. 关键步骤：将预计算的坐标注入到节点数据中
-        # 假设 nodes 和 coords 的行顺序在预处理时已完全对齐
-        nodes['x'] = coords['x_tsne']
-        nodes['y'] = coords['y_tsne']
-
-        # 5. 组装 Payload
-        data_payload = {
-            "nodes": nodes.to_dict('records'),
-            "links": edges.to_dict('records'),
-            "year": selected_year
-        }
-        
-        return data_payload, f"✅ 已成功加载 {selected_year} 年数据"
-
-    except Exception as e:
-        return dash.no_update, f"❌ 加载出错: {str(e)}"
-
-
-# --- 客户端回调：触发 D3 渲染 ---
+# --- 客户端回调 ---
 app.clientside_callback(
     """
     function(data) {
         if (!data) return "";
-        // 这里的 window.renderD3Network 必须在 assets/viz_render.js 中定义
         if (typeof window.renderD3Network === 'function') {
             window.renderD3Network(data);
-        } else {
-            console.error("D3 渲染函数 window.renderD3Network 未找到，请检查 assets 文件夹。");
         }
         return "";
     }

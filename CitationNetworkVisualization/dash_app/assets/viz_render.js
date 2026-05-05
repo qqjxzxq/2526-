@@ -1,107 +1,115 @@
-window.renderD3Network = function(data) {
-    const { nodes, links, year } = data;
+window.renderD3Network = function(combinedData) {
+    // 1. 防御性检查
+    if (typeof d3 === 'undefined' || typeof d3.contourDensity === 'undefined') {
+        console.log("等待 D3 或插件加载...");
+        setTimeout(() => window.renderD3Network(combinedData), 100);
+        return;
+    }
+
     const container = d3.select("#d3-viz-container");
     container.selectAll("*").remove();
 
-    const width = container.node().clientWidth / 2; // 分为左右两半
-    const height = 800;
+    const fullWidth = container.node().clientWidth;
+    const fullHeight = 900;
+    const halfW = fullWidth / 2;
+    const halfH = fullHeight / 2;
 
-    // --- 颜色配置 (复现你的 Python 定义) ---
-    const C_T1_NODE = "#1A3678";   
-    const C_T1_EDGE = "#4E5D8F";   
-    const C_T2_NODE = "#2A8A96";   // 如果是 2024 年可以用这个色系
-    const C_T2_EDGE = "#66B191";   
-    
-    // 根据年份自动选择色系
-    const isLateYear = year >= 2020;
-    const nodeColor = isLateYear ? C_T2_NODE : C_T1_NODE;
-    const edgeColor = isLateYear ? C_T2_EDGE : C_T1_EDGE;
-
-    // 定义渐变色 (用于密度图)
-    const colorScale = d3.scaleLinear()
-        .domain([0, 0.5, 1])
-        .range(["#FFFFFF", edgeColor, nodeColor]);
-
-    // 创建主画布
-    const mainSvg = container.append("svg")
-        .attr("width", "100%")
-        .attr("height", height)
+    const svg = container.append("svg")
+        .attr("width", fullWidth)
+        .attr("height", fullHeight)
         .style("background-color", "#FFFFFF");
 
-    // 建立两个分组 G
-    const gStructure = mainSvg.append("g").attr("transform", `translate(0,0)`);
-    const gHotspots = mainSvg.append("g").attr("transform", `translate(${width},0)`);
+    // 2. 样式配置 (复刻 Nature 风格)
+    const viewConfigs = [
+        { key: "left", xShift: 0, nodeColor: "#1A3678", edgeColor: "#4E5D8F" },
+        { key: "right", xShift: halfW, nodeColor: "#2A8A96", edgeColor: "#66B191" }
+    ];
 
-    // 比例尺
-    const xScale = d3.scaleLinear()
-        .domain(d3.extent(nodes, d => d.x)).range([50, width - 50]);
-    const yScale = d3.scaleLinear()
-        .domain(d3.extent(nodes, d => d.y)).range([50, height - 50]);
+    // 3. 统一比例尺 (固定 Domain 以实现跨年横向对比)
+    const xScale = d3.scaleLinear().domain([-60, 60]).range([50, halfW - 50]);
+    const yScale = d3.scaleLinear().domain([-60, 60]).range([50, halfH - 50]);
 
-    // 映射表
-    const nodeMap = new Map(nodes.map(d => [d.id, d]));
+    viewConfigs.forEach(cfg => {
+        const data = combinedData[cfg.key];
+        const { nodes, links, year } = data;
 
-    // --- A. 复现 Temporal Structure (左侧) ---
-    // 模拟 Hammer Bundle 的边路径
-    const lineGen = d3.line()
-        .x(d => xScale(d.x))
-        .y(d => yScale(d.y))
-        .curve(d3.curveBundle.beta(0.85));
+        // --- 绘制上排：Temporal Structure (带 Hammer 边绑定模拟) ---
+        const gNet = svg.append("g")
+            .attr("transform", `translate(${cfg.xShift}, 0)`);
 
-    gStructure.append("g")
-        .selectAll("path")
-        .data(links)
-        .enter().append("path")
-        .attr("d", d => {
-            const s = nodeMap.get(d.source), t = nodeMap.get(d.target);
-            if(!s || !t) return null;
-            // 插入中点控制位移，模拟捆绑感
-            const mid = { x: (s.x + t.x) / 2 * 0.9, y: (s.y + t.y) / 2 * 0.9 };
-            return lineGen([s, mid, t]);
-        })
-        .attr("fill", "none")
-        .attr("stroke", edgeColor)
-        .attr("stroke-width", 0.6)
-        .attr("stroke-opacity", 0.25);
+        gNet.append("text")
+            .attr("x", halfW/2).attr("y", 40).attr("text-anchor", "middle")
+            .style("font-family", "Arial, sans-serif").style("font-weight", "bold").style("font-size", "20px")
+            .text(`Temporal Structure (${year})`);
 
-    gStructure.append("g")
-        .selectAll("circle")
-        .data(nodes)
-        .enter().append("circle")
-        .attr("r", 2.5)
-        .attr("cx", d => xScale(d.x))
-        .attr("cy", d => yScale(d.y))
-        .attr("fill", nodeColor)
-        .attr("fill-opacity", 0.8);
+        // Hammer 绑定模拟的核心：计算全局/局部重心
+        const avgX = d3.mean(nodes, d => d.x);
+        const avgY = d3.mean(nodes, d => d.y);
 
-    gStructure.append("text")
-        .attr("x", width/2).attr("y", 30).attr("text-anchor", "middle")
-        .style("font-weight", "bold").style("font-size", "20px")
-        .text(`Temporal Structure (${year})`);
+        const nodeMap = new Map(nodes.map(d => [d.id, d]));
 
-    // --- B. 复现 Knowledge Hotspots (右侧密度图) ---
-    // 1. 生成密度数据 (类似 Seaborn KDE)
-    const contourData = d3.contourDensity()
-        .x(d => xScale(d.x))
-        .y(d => yScale(d.y))
-        .size([width, height])
-        .bandwidth(15) // 控制平滑度
-        .thresholds(20) // 控制等高线层数
-        (nodes);
+        // 绘制连线
+        gNet.append("g").selectAll("path")
+            .data(links).enter().append("path")
+            .attr("d", d => {
+                const s = nodeMap.get(d.source), t = nodeMap.get(d.target);
+                if(!s || !t) return null;
 
-    const maxVal = d3.max(contourData, d => d.value);
+                const sx = xScale(s.x), sy = yScale(s.y);
+                const tx = xScale(t.x), ty = yScale(t.y);
 
-    gHotspots.append("g")
-        .selectAll("path")
-        .data(contourData)
-        .enter().append("path")
-        .attr("d", d3.geoPath())
-        .attr("fill", d => colorScale(d.value / maxVal))
-        .attr("stroke", "none")
-        .attr("opacity", 0.9);
+                // 计算直线中点
+                const midX = (sx + tx) / 2;
+                const midY = (sy + ty) / 2;
 
-    gHotspots.append("text")
-        .attr("x", width/2).attr("y", 30).attr("text-anchor", "middle")
-        .style("font-weight", "bold").style("font-size", "20px")
-        .text(`Knowledge Hotspots (${year})`);
+                /**
+                 * Hammer 效果核心逻辑：
+                 * 我们将每条边的贝塞尔控制点向点群的“重心”拉引。
+                 * bundleStrength (0-1): 越大，边绑定越紧密。
+                 */
+                const bundleStrength = 0.5; 
+                const cpX = midX + (xScale(avgX) - midX) * bundleStrength;
+                const cpY = midY + (yScale(avgY) - midY) * bundleStrength;
+
+                // 使用二次贝塞尔曲线：M 起点 Q 控制点 终点
+                return `M${sx},${sy} Q${cpX},${cpY} ${tx},${ty}`;
+            })
+            .attr("fill", "none")
+            .attr("stroke", cfg.edgeColor)
+            .attr("stroke-width", 0.5) // 绑定后线可以稍微加粗一点点
+            .attr("stroke-opacity", 0.15) // 低透明度是产生“束拢感”的关键
+            .style("mix-blend-mode", "multiply"); // 增加线条重叠处的深浅变化
+
+        // 绘制节点
+        gNet.append("g").selectAll("circle")
+            .data(nodes).enter().append("circle")
+            .attr("r", 2.2).attr("cx", d => xScale(d.x)).attr("cy", d => yScale(d.y))
+            .attr("fill", cfg.nodeColor).attr("opacity", 0.8);
+
+
+        // --- 绘制下排：Knowledge Hotspots (保持不变) ---
+        const gHot = svg.append("g")
+            .attr("transform", `translate(${cfg.xShift}, ${halfH})`);
+
+        gHot.append("text")
+            .attr("x", halfW/2).attr("y", 30).attr("text-anchor", "middle")
+            .style("font-family", "Arial, sans-serif").style("font-weight", "bold").style("font-size", "20px")
+            .text(`Knowledge Hotspots (${year})`);
+
+        const colorScale = d3.scaleLinear()
+            .domain([0, 0.5, 1])
+            .range(["#FFFFFF", cfg.edgeColor, cfg.nodeColor]);
+
+        const contours = d3.contourDensity()
+            .x(d => xScale(d.x)).y(d => yScale(d.y))
+            .size([halfW, halfH]).bandwidth(25).thresholds(20)(nodes);
+
+        const maxVal = d3.max(contours, d => d.value);
+
+        gHot.append("g").selectAll("path")
+            .data(contours).enter().append("path")
+            .attr("d", d3.geoPath())
+            .attr("fill", d => colorScale(d.value / maxVal))
+            .attr("opacity", 0.85);
+    });
 };

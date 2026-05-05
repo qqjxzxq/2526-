@@ -7,7 +7,7 @@ import os
 # --- 配置 ---
 NETWORK_DIR = "./yearly_networks/"  # 你现有的数据目录
 OUTPUT_DIR = "tsne_data/high_data/" # 准备生成的目录
-START_YEAR = 1990 # (去掉1986、1987吧)
+START_YEAR = 1990 
 END_YEAR = 2025 # 根据你的实际年份调整
 
 if not os.path.exists(OUTPUT_DIR):
