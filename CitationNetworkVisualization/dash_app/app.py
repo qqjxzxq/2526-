@@ -72,7 +72,7 @@ def get_single_year_data(selected_year):
     nodes['x'] = coords['x_tsne']
     nodes['y'] = coords['y_tsne']
 
-    # 老师建议的边过滤逻辑
+    # 边过滤逻辑
     valid_ids = set(nodes['id'].astype(str))
     edges['source'] = edges['source'].astype(str)
     edges['target'] = edges['target'].astype(str)
