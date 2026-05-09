@@ -12,11 +12,19 @@ window.renderD3Network = function(combinedData) {
 
     // --- 1. 预处理：从右侧年份提取所有引用的 ID 集合 ---
     const citedSet = new Set();
+    const citedCountMap = new Map();
     if (combinedData.right && combinedData.right.nodes) {
         combinedData.right.nodes.forEach(node => {
             if (node.ref_list && Array.isArray(node.ref_list)) {
                 node.ref_list.forEach(refId => {
-                    citedSet.add(cleanIdFunc(refId));
+                    const cid = cleanIdFunc(refId);
+
+                    citedSet.add(cid);
+
+                    citedCountMap.set(
+                        cid,
+                        (citedCountMap.get(cid) || 0) + 1
+                    );
                 });
             }
         });
@@ -44,6 +52,22 @@ window.renderD3Network = function(combinedData) {
     const halfW = vizWidth / 2;
     const halfH = fullHeight / 2;
 
+    // ===== 知识演化说明 =====
+    container.append("div")
+        .style("padding", "10px 18px")
+        .style("background", "#fff5fa")
+        .style("border-left", "5px solid #E91E63")
+        .style("margin", "10px 20px")
+        .style("border-radius", "8px")
+        .style("font-size", "13px")
+        .style("color", "#444")
+        .html(`
+            <b style="color:#E91E63;">粉色节点</b>
+            表示：
+            左侧年份中被右侧年份论文引用的研究工作，
+            体现了知识在时间中的延续与传播。
+        `);
+
     const mainWrapper = container.append("div")
         .style("display", "flex")
         .style("width", "100%")
@@ -54,6 +78,49 @@ window.renderD3Network = function(combinedData) {
         .attr("height", fullHeight)
         .style("background-color", "#FFFFFF")
         .style("border-right", "1px solid #eee");
+    
+        // ===== Legend =====
+    const legend = svg.append("g")
+        .attr("transform", "translate(20,20)");
+
+    // 普通节点
+    legend.append("circle")
+        .attr("r", 5)
+        .attr("cx", 0)
+        .attr("cy", 0)
+        .attr("fill", "#1A3678");
+
+    legend.append("text")
+        .attr("x", 12)
+        .attr("y", 4)
+        .style("font-size", "12px")
+        .text("普通论文");
+
+    // 被未来引用
+    legend.append("circle")
+        .attr("r", 5)
+        .attr("cx", 0)
+        .attr("cy", 22)
+        .attr("fill", "#E91E63");
+
+    legend.append("text")
+        .attr("x", 12)
+        .attr("y", 26)
+        .style("font-size", "12px")
+        .text("被未来研究引用");
+
+    // 当前 hover
+    legend.append("circle")
+        .attr("r", 5)
+        .attr("cx", 0)
+        .attr("cy", 44)
+        .attr("fill", "#FF5722");
+
+    legend.append("text")
+        .attr("x", 12)
+        .attr("y", 48)
+        .style("font-size", "12px")
+        .text("当前选中节点");
 
     const infoPanel = mainWrapper.append("div")
         .attr("id", "detail-panel")
@@ -68,7 +135,26 @@ window.renderD3Network = function(combinedData) {
 
     const updateInfoContent = (d) => {
         const authorList = d.authorNamesDeduped ? d.authorNamesDeduped.replace(/;/g, ", ") : "Unknown Authors";
+        const futureInfluence =
+            citedCountMap.get(cleanIdFunc(d.id)) || 0;
         d3.select("#info-content").html(`
+            <div style="
+                margin-bottom: 15px;
+                padding: 10px;
+                background: #fff5fa;
+                border-left: 4px solid #E91E63;
+                border-radius: 6px;
+            ">
+                <b style="color:#E91E63;">
+                    Future Influence:
+                </b>
+
+                <div style="margin-top:5px; font-size:0.85em;">
+                    被未来年份论文引用
+                    <b>${futureInfluence}</b>
+                    次
+                </div>
+            </div>
             <div style="margin-bottom: 20px;">
                 <h4 style="color: #1A3678; margin: 0 0 8px 0; line-height: 1.3;">${d.title || 'No Title'}</h4>
                 <div style="font-size: 0.8em; color: #888;">
