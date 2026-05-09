@@ -2,6 +2,7 @@ import dash
 from dash import dcc, html, Input, Output, State
 import pandas as pd
 import os
+import ast
 
 # 初始化 Dash
 app = dash.Dash(__name__)
@@ -26,9 +27,17 @@ if os.path.exists(RAW_METADATA_PATH):
     ]
     df_raw = pd.read_csv(
         RAW_METADATA_PATH, 
-        usecols=['oa_openalex_id', 'title', 'authorNamesDeduped', 'abstract', 'conference', 'oa_cited_by_count'],
-        dtype={'oa_openalex_id': str} # 强制 ID 为字符串，避免科学计数法错误
-    )    
+        usecols=[
+            'oa_openalex_id',
+            'title',
+            'authorNamesDeduped',
+            'abstract',
+            'conference',
+            'oa_cited_by_count',
+            'oa_referenced_works'   
+        ],
+        dtype={'oa_openalex_id': str}
+    )
     
     # 统一 ID 格式：去掉 OpenAlex 的 URL 前缀，只保留 Wxxx 部分
     if 'oa_openalex_id' in df_raw.columns:
@@ -121,7 +130,13 @@ def get_single_year_data(selected_year):
         nodes['authorNamesDeduped'] = nodes['authorNamesDeduped'].fillna("Unknown Authors")
         nodes['abstract'] = nodes['abstract'].fillna("Abstract not available.")
         nodes['oa_cited_by_count'] = nodes['oa_cited_by_count'].fillna(0)
-    
+        
+        if 'oa_referenced_works' in nodes.columns:
+            # 确保引用列表是真正的 list 类型而不是字符串
+            nodes['ref_list'] = nodes['oa_referenced_works'].apply(
+                lambda x: ast.literal_eval(x) if isinstance(x, str) and x.startswith('[') else []
+            )
+            
     # 3. 边过滤逻辑 (确保边两端的点都在 nodes 中)
     valid_ids = set(nodes['id'].astype(str))
     edges['source'] = edges['source'].astype(str)
